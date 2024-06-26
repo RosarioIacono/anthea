@@ -3,11 +3,11 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  video:
-    id: kWhDRV81sbR1vkzV
-    provider: youtube
-  #overlay_color: "#5e616c"
-  #overlay_image: /assets/images/mm-home-page-feature.jpg
+  #video:
+    #id: kWhDRV81sbR1vkzV
+    #provider: youtube
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/This-is-not-a-tomato.png
   actions:
     - label: "<i class='fas fa-download'></i> Learn more"
       url: "/docs/quick-start-guide/"
