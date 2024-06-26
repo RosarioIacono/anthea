@@ -3,8 +3,11 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  video:
+    id: eL6sqizNflXhQ7Ut?start=47
+    provider: youtube
+  #overlay_color: "#5e616c"
+  #overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Learn more"
       url: "/docs/quick-start-guide/"
