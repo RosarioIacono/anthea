@@ -39,3 +39,7 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+# This is a first paragraph
+## With a subtitle
+And some text
