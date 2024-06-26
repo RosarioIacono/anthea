@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   video:
-    id: eL6sqizNflXhQ7Ut?start=47
+    id: eL6sqizNflXhQ7Ut
     provider: youtube
   #overlay_color: "#5e616c"
   #overlay_image: /assets/images/mm-home-page-feature.jpg
