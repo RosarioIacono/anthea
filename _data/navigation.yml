@@ -3,6 +3,8 @@ main:
     url: /posts/
   - title: "Categories"
     url: /categories/
+  - title: "Open Source Seeds"
+    url: /open_seeds/
   - title: "Tags"
     url: /tags/
   - title: "About"
