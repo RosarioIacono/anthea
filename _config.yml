@@ -63,7 +63,7 @@ plugins:
   - jekyll-include-cache
 
   whitelist:
-– jekyll-paginate-v2
+  - jekyll-paginate-v2
 
 author:
   name   : "Rosario Iacono"
