@@ -104,7 +104,6 @@ feature_row4:
     btn_label: "Learn more" 
 ---
 # Key Product Features
-{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
