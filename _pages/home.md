@@ -13,7 +13,6 @@ header:
       url: "/docs/quick-start-guide/"
 excerpt: >
   Seeds for a resilient present and a sustainable future.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.2">Latest release v4.26.2</a></small>
 feature_row:
     - image_path: /assets/images/mm-customizable-feature.png
     alt: "open source seeds"
@@ -36,21 +35,10 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more" 
-feature_row2:
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-
 ---
 # Key Product Features
 
 {% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}
 
 # This is a first paragraph
 ## With a subtitle
