@@ -36,7 +36,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more" 
 ---
-# Key Product Features
+# Key Product Features again
 
 {% include feature_row %}
 
