@@ -61,6 +61,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - nokogiri
 
   whitelist:
   - jekyll-paginate-v2
