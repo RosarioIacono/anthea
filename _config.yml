@@ -31,10 +31,10 @@ remote_theme: mmistakes/minimal-mistakes
 pagination:
 enabled: true
 per_page: 3
-permalink: ‘/page/:num/’
-title: ’ - page :num’
+permalink: '/page/:num/'
+title: ' - page :num'
 limit: 1
-sort_field: ‘date’
+sort_field: 'date'
 sort_reverse: true
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
