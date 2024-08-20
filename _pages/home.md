@@ -113,10 +113,6 @@ feature_row4:
 
 {% include feature_row id="feature_row4" type="center" %}
 
-
-{% include feature_row %}
-
-
 # This is a first paragraph
 ## With a subtitle
 And some text
