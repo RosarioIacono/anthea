@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Story on Anthea</title>
+    <link>http://localhost:1313/hugo-universal-theme/tags/story/</link>
+    <description>Recent content in Story on Anthea</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our Story</title>
+      <link>http://localhost:1313/hugo-universal-theme/our-story/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/our-story/</guid>
+      <description>&lt;h3 id=&#34;why-we-started&#34;&gt;Why We Started&lt;/h3&gt;&#xA;&lt;p&gt;Anthea began with a frustration and a dream.&lt;br&gt;&#xA;I saw how &lt;strong&gt;vertical farms were full of technology and potential&lt;/strong&gt;, but the seeds they used were still made for fields and greenhouses.&lt;br&gt;&#xA;It didn’t make sense. The plants weren’t keeping up with the farms.&lt;/p&gt;&#xA;&lt;p&gt;So we asked: &lt;em&gt;what if seeds were designed for vertical farming from the start?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;the-open-source-path&#34;&gt;The Open Source Path&lt;/h3&gt;&#xA;&lt;p&gt;We didn’t want to lock seeds behind patents or keep innovation in silos.&lt;br&gt;&#xA;Seeds are too important for that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

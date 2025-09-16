@@ -1,0 +1,56 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "div",
+      "footer",
+      "head",
+      "header",
+      "html",
+      "link",
+      "main",
+      "meta",
+      "script",
+      "title"
+    ],
+    "classes": [
+      "antialiased",
+      "bg-gray-100",
+      "bg-white",
+      "copyright",
+      "flex",
+      "homepage-content",
+      "justify-start",
+      "lg:pt-0",
+      "max-w-3xl",
+      "max-w-screen-xl",
+      "mb-6",
+      "md:justify-center",
+      "md:pb-24",
+      "md:text-center",
+      "min-h-screen",
+      "mt-6",
+      "mx-auto",
+      "pb-16",
+      "pb-40",
+      "prose",
+      "pt-12",
+      "pt-16",
+      "pt-24",
+      "px-6",
+      "relative",
+      "sm:max-w-2xl",
+      "text-left",
+      "w-full"
+    ],
+    "ids": [
+      "content",
+      "content-wrapper",
+      "footer",
+      "header",
+      "header-inner-wrapper",
+      "main"
+    ]
+  }
+}

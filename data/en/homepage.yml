@@ -1,0 +1,40 @@
+banner:
+  enable: true
+  image: "images/banner.jpg"
+  contents: "**Anthea** _Open Source Seeds for Vertical Farming_"
+  button:
+    contents: "Discover Our Mission"
+    url: "#problem"
+
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: The Challenge
+      icon: fa-exclamation-triangle
+      content: >
+        Vertical farming needs crops adapted to indoor environments. Today, seeds are bred for fields and greenhouses, not vertical farms — leading to wasted resources and lower yields.
+    - title: Our Solution
+      icon: fa-seedling
+      content: >
+        **Anthea** develops open-source seeds tailored for vertical farming. We combine science, collaboration, and transparency to unlock varieties optimized for controlled environments.
+    - title: Why Open Source?
+      icon: fa-code-branch
+      content: >
+        We believe seeds should be a shared foundation for innovation. Our open-source approach fosters community-driven breeding, ensuring accessibility and biodiversity.
+        
+  - type: heading
+    heading: Our Vision
+    contents: >
+      We are building the future of vertical farming, where **seeds, science, and collaboration** create sustainable food systems.
+
+  - type: posts
+    heading: Latest Updates
+    content_type: posts
+    max: 3
+
+  - type: cta
+    contents: Ready to join the movement for open-source seeds?
+    button:
+      contents: Get Involved
+      url: "/contact"
