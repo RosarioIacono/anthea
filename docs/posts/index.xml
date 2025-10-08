@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Anthea</title>
-    <link>https://rosarioiacono.github.io/anthea/posts/</link>
+    <link>http://localhost:1313/anthea/posts/</link>
     <description>Recent content in Blog on Anthea</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Sep 2025 16:09:18 +0200</lastBuildDate>
-    <atom:link href="https://rosarioiacono.github.io/anthea/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/anthea/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://rosarioiacono.github.io/anthea/posts/my-first-post/</link>
+      <link>http://localhost:1313/anthea/posts/my-first-post/</link>
       <pubDate>Tue, 02 Sep 2025 16:09:18 +0200</pubDate>
-      <guid>https://rosarioiacono.github.io/anthea/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/anthea/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;new-post&#34;&gt;New post&lt;/h1&gt;&#xA;&lt;p&gt;This is a new post&lt;/p&gt;</description>
     </item>
   </channel>

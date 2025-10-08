@@ -1,40 +1,79 @@
 banner:
   enable: true
   image: "images/banner.jpg"
-  contents: "**Anthea** _Open Source Seeds for Vertical Farming_"
+  contents: "🌱 **Anthea – A Lifeline for Farms**  
+Planting hope. Sowing the future."
   button:
-    contents: "Discover Our Mission"
-    url: "#problem"
+    contents: "Discover Anthea"
+    url: "#cta"
 
 items:
-  - type: highlights
-    items_per_row: 3
-    items:
-    - title: The Challenge
-      icon: fa-exclamation-triangle
-      content: >
-        Vertical farming needs crops adapted to indoor environments. Today, seeds are bred for fields and greenhouses, not vertical farms — leading to wasted resources and lower yields.
-    - title: Our Solution
-      icon: fa-seedling
-      content: >
-        **Anthea** develops open-source seeds tailored for vertical farming. We combine science, collaboration, and transparency to unlock varieties optimized for controlled environments.
-    - title: Why Open Source?
-      icon: fa-code-branch
-      content: >
-        We believe seeds should be a shared foundation for innovation. Our open-source approach fosters community-driven breeding, ensuring accessibility and biodiversity.
-        
   - type: heading
-    heading: Our Vision
-    contents: >
-      We are building the future of vertical farming, where **seeds, science, and collaboration** create sustainable food systems.
+    heading: "The future of farming begins in your vertical farm."
+    contents: "Anthea delivers more than seedlings  we deliver solutions for food security, sustainability, and resilience."
 
-  - type: posts
-    heading: Latest Updates
-    content_type: posts
-    max: 3
+  - type: highlights
+    items_per_row: 1
+    items:
+      - title: "The Challenge"
+        icon: fa-exclamation-triangle
+        content: >
+          Climate crisis, resource scarcity, nutrient deficiencies – our soils are under pressure, and conventional farming is reaching its limits.  
+          But what if hope could take root – even where nothing has grown before?
+
+  - type: heading
+    heading: "Our Story"
+    contents: >
+      I still remember the moment we unpacked our first purple tomato – lovingly cultivated, rich in antioxidants, a small symbol of change.  
+      Or the children running through the snow to greet the delivery van, drawn to the red glow of the grow lights – a promise shining in the winter landscape.  
+      **We can feed our families, even when nothing grows outside.**
+
+      With Anthea, we offer more than just plants. We offer a system – born from open-source seeds, scientific precision, and smart technology.  
+      For farms that aim to be resilient, regenerative, and alive.
+
+  - type: highlights
+    heading: "Why Choose Anthea?"
+    items_per_row: 2
+    items:
+      - title: "Robust & Diverse"
+        icon: fa-seedling
+        content: "Seedlings for vertical and decentralized farming."
+      - title: "Open Source"
+        icon: fa-unlock
+        content: "Seeds that are freely available, adaptable, and future-ready."
+      - title: "Nutrient Dense"
+        icon: fa-apple-alt
+        content: "High nutrient density & yield – even under challenging conditions."
+      - title: "Scientifically Developed"
+        icon: fa-flask
+        content: "Focused on sustainability & biodiversity."
+
+  - type: heading
+    heading: "What Others Say"
+    contents: >
+      *“Since using Anthea, our small farm has become more self-sufficient and efficient than ever. Our customers taste the difference – and we feel it in the harvest.”*  
+      – **Lisa B., Organic farmer from Thuringia**
+
+      *“Anthea's grow lights got us through the winter. Our community is thrilled – and hungry for more.”*  
+      – **Kinderhilfswerk e.V.**
+
+  - type: heading
+    heading: "Frequently Asked Questions"
+    contents: >
+      **What makes Anthea special?**  
+      Anthea combines open-source seeds, scientific expertise, and technology to create resilient farming systems.  
+
+      **Can I use Anthea on small-scale farms?**  
+      Yes! Our solutions are scalable – from backyard gardens to urban farms.  
+
+      **What types of plants do you offer?**  
+      We're currently focused on tomatoes, leafy greens, and herbs – with more varieties in development.
 
   - type: cta
-    contents: Ready to join the movement for open-source seeds?
+    id: "cta"
+    contents: >
+      Imagine your farm standing strong against climate change.  
+      Imagine your crops thriving – even without soil.
     button:
-      contents: Get Involved
+      contents: "Start Planting the Future"
       url: "/contact"
