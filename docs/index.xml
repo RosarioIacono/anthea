@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anthea</title>
-    <link>http://localhost:1313/anthea/</link>
+    <link>https://https://anthea.netlify.app/</link>
     <description>Recent content on Anthea</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Sep 2025 16:09:18 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/anthea/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://https://anthea.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/anthea/about/</link>
+      <link>https://https://anthea.netlify.app/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/about/</guid>
+      <guid>https://https://anthea.netlify.app/about/</guid>
       <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Our Story</title>
-      <link>http://localhost:1313/anthea/our-story/</link>
+      <link>https://https://anthea.netlify.app/our-story/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/our-story/</guid>
+      <guid>https://https://anthea.netlify.app/our-story/</guid>
       <description>&lt;h3 id=&#34;why-we-started&#34;&gt;Why We Started&lt;/h3&gt;&#xA;&lt;p&gt;Anthea began with a frustration and a dream.&lt;br&gt;&#xA;I saw how &lt;strong&gt;vertical farms were full of technology and potential&lt;/strong&gt;, but the seeds they used were still made for fields and greenhouses.&lt;br&gt;&#xA;It didn’t make sense. The plants weren’t keeping up with the farms.&lt;/p&gt;&#xA;&lt;p&gt;So we asked: &lt;em&gt;what if seeds were designed for vertical farming from the start?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;the-open-source-path&#34;&gt;The Open Source Path&lt;/h3&gt;&#xA;&lt;p&gt;We didn’t want to lock seeds behind patents or keep innovation in silos.&lt;br&gt;&#xA;Seeds are too important for that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Products</title>
-      <link>http://localhost:1313/anthea/products/</link>
+      <link>https://https://anthea.netlify.app/products/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/products/</guid>
+      <guid>https://https://anthea.netlify.app/products/</guid>
       <description>&lt;h3 id=&#34;seeds-for-vertical-farms&#34;&gt;Seeds for Vertical Farms&lt;/h3&gt;&#xA;&lt;p&gt;Anthea develops &lt;strong&gt;open-source seeds optimized for vertical farming&lt;/strong&gt;.&lt;br&gt;&#xA;Our varieties are tested in controlled environments, with traits like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🌱 Compact growth&lt;/li&gt;&#xA;&lt;li&gt;💡 Efficient use of light&lt;/li&gt;&#xA;&lt;li&gt;💧 Better performance in hydroponics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We are currently running trials and building a &lt;strong&gt;catalog of varieties&lt;/strong&gt; for farmers who want higher yields and sustainability indoors.&lt;/p&gt;&#xA;&lt;p&gt;➡️ &lt;strong&gt;Coming soon: Open variety catalog 2025.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Source Seeds</title>
-      <link>http://localhost:1313/anthea/open-source-seeds/</link>
+      <link>https://https://anthea.netlify.app/open-source-seeds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/open-source-seeds/</guid>
+      <guid>https://https://anthea.netlify.app/open-source-seeds/</guid>
       <description>&lt;h3 id=&#34;seeds-belong-to-everyone&#34;&gt;Seeds Belong to Everyone&lt;/h3&gt;&#xA;&lt;p&gt;We believe seeds should be &lt;strong&gt;a common good&lt;/strong&gt;, not locked behind patents.&lt;br&gt;&#xA;Anthea uses the &lt;strong&gt;Open Source Seed license&lt;/strong&gt; to guarantee:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Seeds remain free for use, sharing, and breeding.&lt;/li&gt;&#xA;&lt;li&gt;Innovation happens collaboratively, not in silos.&lt;/li&gt;&#xA;&lt;li&gt;Agrobiodiversity is preserved for future generations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;🌍 &lt;strong&gt;Join the community&lt;/strong&gt;: help us test, breed, and share new varieties.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Press &amp; Supporters</title>
-      <link>http://localhost:1313/anthea/press/</link>
+      <link>https://https://anthea.netlify.app/press/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/press/</guid>
-      <description>&lt;h3 id=&#34;supported-by&#34;&gt;Supported by&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;UFZ Transfer Department&lt;/strong&gt; (TranFund)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;EIT Food Fellowship&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Weinberg Campus Elevator&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;press-mentions&#34;&gt;Press Mentions&lt;/h3&gt;&#xA;&lt;p&gt;📌 Coming soon: media coverage, articles, and interviews.&lt;/p&gt;&#xA;&lt;p&gt;Are you a journalist or researcher?&lt;br&gt;&#xA;📧 &lt;a href=&#34;http://localhost:1313/anthea/contact&#34;&gt;Contact us&lt;/a&gt; for press materials.&lt;/p&gt;</description>
+      <guid>https://https://anthea.netlify.app/press/</guid>
+      <description>&lt;h3 id=&#34;supported-by&#34;&gt;Supported by&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;UFZ Transfer Department&lt;/strong&gt; (TranFund)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;EIT Food Fellowship&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Weinberg Campus Elevator&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;press-mentions&#34;&gt;Press Mentions&lt;/h3&gt;&#xA;&lt;p&gt;📌 Coming soon: media coverage, articles, and interviews.&lt;/p&gt;&#xA;&lt;p&gt;Are you a journalist or researcher?&lt;br&gt;&#xA;📧 &lt;a href=&#34;https://https://anthea.netlify.app/contact&#34;&gt;Contact us&lt;/a&gt; for press materials.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/anthea/contact/</link>
+      <link>https://https://anthea.netlify.app/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/contact/</guid>
+      <guid>https://https://anthea.netlify.app/contact/</guid>
       <description>&lt;p&gt;We’d love to hear from you!&lt;/p&gt;&#xA;&lt;p&gt;📌 &lt;strong&gt;For vertical farms&lt;/strong&gt;: let’s discuss seed trials and partnerships.&lt;br&gt;&#xA;💡 &lt;strong&gt;For researchers&lt;/strong&gt;: collaborate on experiments and breeding.&lt;br&gt;&#xA;🤝 &lt;strong&gt;For investors&lt;/strong&gt;: explore how we can scale together.&lt;br&gt;&#xA;🌱 &lt;strong&gt;For the community&lt;/strong&gt;: join us on Discord or WhatsApp.&lt;/p&gt;&#xA;&lt;p&gt;📧 Email: &lt;a href=&#34;mailto:contact@anthea-seeds.org&#34;&gt;contact@anthea-seeds.org&lt;/a&gt;&lt;br&gt;&#xA;🌍 Discord: &lt;a href=&#34;#&#34;&gt;Join our community&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/anthea/posts/my-first-post/</link>
+      <link>https://https://anthea.netlify.app/posts/my-first-post/</link>
       <pubDate>Tue, 02 Sep 2025 16:09:18 +0200</pubDate>
-      <guid>http://localhost:1313/anthea/posts/my-first-post/</guid>
+      <guid>https://https://anthea.netlify.app/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;new-post&#34;&gt;New post&lt;/h1&gt;&#xA;&lt;p&gt;This is a new post&lt;/p&gt;</description>
     </item>
   </channel>

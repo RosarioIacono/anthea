@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Anthea</title>
-    <link>http://localhost:1313/anthea/tags/</link>
+    <link>https://https://anthea.netlify.app/tags/</link>
     <description>Recent content in Tags on Anthea</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/anthea/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://https://anthea.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/anthea/tags/about/</link>
+      <link>https://https://anthea.netlify.app/tags/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/tags/about/</guid>
+      <guid>https://https://anthea.netlify.app/tags/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Content</title>
-      <link>http://localhost:1313/anthea/tags/content/</link>
+      <link>https://https://anthea.netlify.app/tags/content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/tags/content/</guid>
+      <guid>https://https://anthea.netlify.app/tags/content/</guid>
       <description></description>
     </item>
     <item>
       <title>Examples</title>
-      <link>http://localhost:1313/anthea/tags/examples/</link>
+      <link>https://https://anthea.netlify.app/tags/examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/tags/examples/</guid>
+      <guid>https://https://anthea.netlify.app/tags/examples/</guid>
       <description></description>
     </item>
     <item>
       <title>Mission</title>
-      <link>http://localhost:1313/anthea/tags/mission/</link>
+      <link>https://https://anthea.netlify.app/tags/mission/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/tags/mission/</guid>
+      <guid>https://https://anthea.netlify.app/tags/mission/</guid>
       <description></description>
     </item>
     <item>
       <title>Story</title>
-      <link>http://localhost:1313/anthea/tags/story/</link>
+      <link>https://https://anthea.netlify.app/tags/story/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anthea/tags/story/</guid>
+      <guid>https://https://anthea.netlify.app/tags/story/</guid>
       <description></description>
     </item>
   </channel>
