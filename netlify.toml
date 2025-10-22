@@ -7,7 +7,7 @@ TZ = "Europe/Oslo"
 HUGO_THEME = "hugo-arcana"
 
 [build]
-publish = "public"
+publish = "docs"
 command = """\
   git config core.quotepath false && \
   hugo --gc --minify --baseURL "${URL}"
