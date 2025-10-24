@@ -6,7 +6,36 @@
     <description>Recent content in Tags on Anthea</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 25 Oct 2023 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Innovation</title>
+      <link>http://localhost:1313/tags/innovation/</link>
+      <pubDate>Wed, 25 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSSI</title>
+      <link>http://localhost:1313/tags/ossi/</link>
+      <pubDate>Wed, 25 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ossi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seeds</title>
+      <link>http://localhost:1313/tags/seeds/</link>
+      <pubDate>Wed, 25 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/seeds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urban Agriculture</title>
+      <link>http://localhost:1313/tags/urban-agriculture/</link>
+      <pubDate>Wed, 25 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/urban-agriculture/</guid>
+      <description></description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/tags/about/</link>

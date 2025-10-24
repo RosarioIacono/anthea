@@ -6,7 +6,7 @@
     <description>Recent content on Anthea</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Sep 2025 16:09:18 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 25 Oct 2023 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -51,11 +51,11 @@
       <description></description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 02 Sep 2025 16:09:18 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;new-post&#34;&gt;New post&lt;/h1&gt;&#xA;&lt;p&gt;This is a new post&lt;/p&gt;</description>
+      <title>The Seed Revolution: How Open-Source Genetics Unlock Vertical Farming&#39;s Potential</title>
+      <link>http://localhost:1313/posts/the-seed-revolution/</link>
+      <pubDate>Wed, 25 Oct 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-seed-revolution/</guid>
+      <description>&lt;p&gt;In the controlled, high-tech environment of a vertical farm, every variable is optimized for growth—light, temperature, nutrients. But there&amp;rsquo;s one fundamental component that often remains locked in a proprietary system: the seed. Open-source seeds are emerging as a transformative force, poised to bridge this gap and create a more resilient, adaptable, and equitable foundation for the future of urban agriculture.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

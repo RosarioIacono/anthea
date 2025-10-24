@@ -23,9 +23,37 @@
     <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2025-09-02T16:09:18+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/about/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/innovation/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/open-source/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ossi/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/seeds/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/sustainability/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-seed-revolution/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/urban-agriculture/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/vertical-farming/</loc>
+    <lastmod>2023-10-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/about/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/content/</loc>
   </url><url>
@@ -34,7 +62,5 @@
     <loc>http://localhost:1313/tags/mission/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/story/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
