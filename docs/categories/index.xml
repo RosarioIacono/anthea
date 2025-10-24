@@ -6,13 +6,27 @@
     <description>Recent content in Categories on Anthea</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Oct 2023 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2023 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Food Sovereignty</title>
+      <link>http://localhost:1313/categories/food-sovereignty/</link>
+      <pubDate>Wed, 01 Nov 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/food-sovereignty/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Open Source</title>
       <link>http://localhost:1313/categories/open-source/</link>
-      <pubDate>Wed, 25 Oct 2023 08:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 08:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urban Farming</title>
+      <link>http://localhost:1313/categories/urban-farming/</link>
+      <pubDate>Wed, 01 Nov 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/urban-farming/</guid>
       <description></description>
     </item>
     <item>

@@ -6,7 +6,7 @@
     <description>Recent content on Anthea</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Oct 2023 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2023 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -20,7 +20,7 @@
       <link>http://localhost:1313/our-story/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/our-story/</guid>
-      <description>&lt;h3 id=&#34;why-we-started&#34;&gt;Why We Started&lt;/h3&gt;&#xA;&lt;p&gt;Anthea began with a frustration and a dream.&lt;br&gt;&#xA;I saw how &lt;strong&gt;vertical farms were full of technology and potential&lt;/strong&gt;, but the seeds they used were still made for fields and greenhouses.&lt;br&gt;&#xA;It didn’t make sense. The plants weren’t keeping up with the farms.&lt;/p&gt;&#xA;&lt;p&gt;So we asked: &lt;em&gt;what if seeds were designed for vertical farming from the start?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;the-open-source-path&#34;&gt;The Open Source Path&lt;/h3&gt;&#xA;&lt;p&gt;We didn’t want to lock seeds behind patents or keep innovation in silos.&lt;br&gt;&#xA;Seeds are too important for that.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;our-story&#34;&gt;Our Story&lt;/h2&gt;&#xA;&lt;p&gt;Anthea was born from a simple idea: to make high-quality seeds for vertical farming accessible to everyone. We noticed that most indoor farming varieties were locked behind proprietary systems, limiting innovation and slowing progress. Our founders, passionate about both plant breeding and open collaboration, decided to take a different path.&lt;/p&gt;&#xA;&lt;p&gt;We combine advanced breeding techniques with a community-driven, open-source approach. By sharing our varieties freely, we empower growers, researchers, and innovators to adapt and improve seeds for their unique environments. Every step we take, from selecting traits to testing in controlled environments, is guided by the goal of creating resilient, high-performing crops while fostering a collaborative, transparent food system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Products</title>
@@ -49,6 +49,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Beyond Patents: Building a Shared Seed Commons for Urban Agriculture</title>
+      <link>http://localhost:1313/posts/beyond-patents/</link>
+      <pubDate>Wed, 01 Nov 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/beyond-patents/</guid>
+      <description>&lt;p&gt;As cities expand and climate patterns shift, urban agriculture and vertical farming have become critical to building local food resilience. Yet, many of these cutting-edge growing systems rely on a centuries-old model of seed ownership. The open-source seed movement challenges this paradigm, offering a framework for collaboration that is essential for the sustainable growth of urban food production.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Seed Revolution: How Open-Source Genetics Unlock Vertical Farming&#39;s Potential</title>
