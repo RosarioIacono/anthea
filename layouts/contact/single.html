@@ -1,62 +1,13 @@
-<!DOCTYPE HTML>
-<html lang="en">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-
-<title>Contact | Anthea</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="/style.css" />
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Contact">
-<meta property="og:url" content="http://localhost:1313/contact/">
-  <meta property="og:site_name" content="Anthea">
-  <meta property="og:title" content="Contact">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-</head>
-    <body class="is-preload">
-        <div id="page-wrapper"><div id="header">
-    <div id="logo-wrapper"><h1><a href="http://localhost:1313/" id="logo">
-            <img src="/images/logo.png" alt="" />
-        
-    </a></h1></div>
-
-    <nav id="nav">
-        <ul>
-                <li class="">
-                    <a href="/about/">About</a>
-                <li class="">
-                    <a href="/our-story/">Our Story</a>
-                <li class="">
-                    <a href="/products/">Products</a>
-                <li class="">
-                    <a href="/open-source-seeds/">Open Source Seeds</a>
-                <li class="">
-                    <a href="/posts/">Blog</a>
-                <li class="">
-                    <a href="/press/">Press &amp; Supporters</a>
-        </ul>
-    </nav>
-</div>
-
-
-            <section class="wrapper style1">
-                <div class="container">
-                    
-
-                        <div class="">
-                            <div id="content">
-                                <article>
+{{ define "main" }}
 <section class="wrapper style1">
     <div class="container">
         <header class="major">
-            <h2>Contact</h2>
-            
+            <h2>{{ .Title }}</h2>
+            {{ with .Description }}<p>{{ . }}</p>{{ end }}
         </header>
 
         <div class="row gtr-200">
-            
+            <!-- Left Column: Contact Info & Social -->
             <div class="col-6 col-12-medium">
                 <div class="contact-info">
                     <h3>Get In Touch</h3>
@@ -110,7 +61,7 @@
                         </ul>
                     </div>
 
-                    
+                    <!-- Social Media -->
                     <div class="social-section">
                         <h4>Follow Our Journey</h4>
                         <div class="social-buttons">
@@ -123,9 +74,9 @@
                 </div>
             </div>
 
-            
+            <!-- Right Column: Contact Form & Map -->
             <div class="col-6 col-12-medium">
-                
+                <!-- Contact Form -->
                 <div class="contact-form-section">
                     <h3>Send us a Message</h3>
                     <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
@@ -168,7 +119,7 @@
                     </form>
                 </div>
 
-                
+                <!-- Map Placeholder -->
                 <div class="map-section">
                     <h3>Find Us</h3>
                     <div class="map-placeholder">
@@ -299,7 +250,7 @@
     display: none;
 }
 
- 
+/* Responsive adjustments */
 @media (max-width: 736px) {
     .social-buttons {
         grid-template-columns: 1fr;
@@ -316,35 +267,4 @@
     }
 }
 </style>
-
-                                </article>
-                            </div>
-                        </div>
-
-                    
-                </div>
-            </section><div id="footer">
-    <div class="container">
-        <div class="row">
-        </div>
-    </div>
-
-    <ul class="icons">
-    </ul>
-
-    <div class="copyright">
-        <ul class="menu">
-            
-                <li>Design: <a href="https://html5up.net">HTML5 UP</a>
-                <li><a href="https://github.com/half-duplex/hugo-arcana">Theme</a>
-        </ul>
-    </div>
-</div>
-</div><script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.dropotron.min.js"></script>
-<script src="/js/browser.min.js"></script>
-<script src="/js/breakpoints.min.js"></script>
-<script src="/js/util.js"></script>
-<script src="/js/main.js"></script>
-</body>
-</html>
+{{ end }}
