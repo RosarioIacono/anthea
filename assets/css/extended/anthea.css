@@ -173,13 +173,12 @@ blockquote {
   padding: 0 1.2rem;
 }
 
-.anthea-hero-logo {
-  display: block !important;
-  margin: 0 auto 1.6rem auto !important;
-  width: 440px;
-  max-width: 80%;
-  height: auto;
-  float: none !important;
+/* ===== Final hero logo sizing (put at END of file) ===== */
+
+@media (max-width: 600px){
+  .anthea-hero-logo{
+    width: clamp(160px, 45vw, 230px);
+  }
 }
 
 .anthea-hero h1 {
@@ -310,11 +309,12 @@ blockquote {
 .anthea-hero-logo{
   display:block !important;
   margin: 0 auto 1.6rem auto !important;
-  width: 220px;
-  max-width: 80%;
-  height: auto;
-  float: none !important;
+  float:none !important;
+  height:auto;
+  width: clamp(600px, 22vw, 800px); /* responsive: min 200, max 340 */
+  max-width: 90%;
 }
+
 .anthea-hero-subtitle{
   max-width: 760px;
   margin: 0.8rem auto 1.2rem auto;

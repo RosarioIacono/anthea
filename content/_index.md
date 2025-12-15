@@ -6,7 +6,7 @@ layout: "home"
 <div class="anthea-band">
   <div class="anthea-band-inner">
 
-  <img src="/images/logo.png" alt="Anthea logo" class="anthea-hero-logo">
+  <img src="/images/Anthea_logo.png" alt="Anthea logo" class="anthea-hero-logo">
 
   <h1>Open-Source Seedling Biotechnology for Resilient Agriculture</h1>
 
@@ -21,7 +21,7 @@ layout: "home"
   </div>
 
   <!-- Optional hero graphic (recommended) -->
-  <!-- <img src="/img/illus/orchard-facility.svg" alt="Anthea facility illustration" class="anthea-hero-illus"> -->
+ <img src="/images/facility.png" alt="Anthea facility illustration" class="anthea-hero-illus"> 
 
 </div>
 </div>
