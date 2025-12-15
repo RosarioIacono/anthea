@@ -77,14 +77,15 @@ a:hover {
   background: color-mix(in srgb, var(--anthea-green) 8%, transparent);
 }
 
-/* 6) Cards / sections */
+/* If you want to keep old markup but remove the boxed look */
 .anthea-card {
-  background: var(--anthea-bg-card);
-  border: 1px solid color-mix(in srgb, var(--anthea-green) 18%, transparent);
-  border-radius: 18px;
-  padding: 1.3rem 1.4rem;
-  margin: 1.4rem 0;
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
 }
+
 
 /* 7) Blockquotes */
 blockquote {
@@ -160,5 +161,121 @@ blockquote {
   line-height: 1.6;
   opacity: 0.92;
 }
+
+/* =========================================================
+   Anthea Homepage Hero
+   ========================================================= */
+
+.anthea-hero {
+  max-width: 1100px;
+  margin: 3.2rem auto 2.8rem auto;
+  text-align: center;
+  padding: 0 1.2rem;
+}
+
+.anthea-hero-logo {
+  display: block !important;
+  margin: 0 auto 1.6rem auto !important;
+  width: 440px;
+  max-width: 80%;
+  height: auto;
+  float: none !important;
+}
+
+.anthea-hero h1 {
+  font-size: clamp(2.1rem, 4.5vw, 3.1rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.anthea-hero-subtitle {
+  font-size: 1.15rem;
+  max-width: 720px;
+  margin: 0 auto 1.6rem auto;
+  line-height: 1.65;
+  opacity: 0.9;
+}
+
+.anthea-hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+/* Slight vertical breathing space below hero */
+.home .main > *:not(.anthea-hero) {
+  margin-top: 2.2rem;
+}
+
+/* Mobile tuning */
+@media (max-width: 600px) {
+  .anthea-hero {
+    margin-top: 2.4rem;
+  }
+
+  .anthea-hero-logo {
+    width: 170px;
+  }
+}
+
+/* ===== Full-width frame + readable content column ===== */
+
+:root{
+  --anthea-frame-pad: 2rem;
+  --anthea-content-width: 860px; /* adjust: 760–980px */
+}
+
+/* Make header/footer/frame span full width */
+.header, .nav, .footer, .main {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Keep nice side padding on big screens */
+.nav, .main, .footer {
+  padding-left: var(--anthea-frame-pad) !important;
+  padding-right: var(--anthea-frame-pad) !important;
+}
+
+/* Constrain actual reading content */
+.main > * ,
+.post-single,
+.page-header,
+.first-entry,
+.post-entry {
+  max-width: var(--anthea-content-width);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Blog list entries sometimes need this too */
+.list .main .post-entry,
+.list .main .first-entry {
+  max-width: var(--anthea-content-width);
+}
+
+/* Mobile padding */
+@media (max-width: 600px){
+  :root{ --anthea-frame-pad: 1rem; }
+}
+
+
+/* ===== Full-width bands with constrained inner column ===== */
+.anthea-band {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background: var(--anthea-bg-card);
+  padding: 2.2rem 0;
+  border-top: 1px solid color-mix(in srgb, var(--anthea-green) 10%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--anthea-green) 10%, transparent);
+}
+
+.anthea-band-inner {
+  max-width: var(--anthea-content-width);
+  margin: 0 auto;
+  padding: 0 var(--anthea-frame-pad);
+}
+
 
 

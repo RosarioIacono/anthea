@@ -3,40 +3,54 @@ title: "Anthea"
 layout: "home"
 ---
 
-<img src="/img/logo.png" alt="Anthea logo" class="anthea-hero-logo">
+<div class="anthea-band">
+  <div class="anthea-band-inner">
 
-# Anthea — Open-Source Seedling Biotechnology for the Future of Agriculture
+  <img src="/images/logo.png" alt="Anthea logo" class="anthea-hero-logo">
+    <h1>Anthea — Open-Source Seedling Biotechnology for the Future of Agriculture</h1>
+    <p class="anthea-hero-subtitle">
+      High-uniformity, biology-enhanced seedlings grown with vertical-farming precision
+      and tested in a regenerative orchard.
+    </p>
 
-<p class="anthea-hero-subtitle">
-High-uniformity, biology-enhanced seedlings grown with vertical-farming precision and tested in a regenerative orchard.
-</p>
+  <div class="anthea-hero-actions">
+      <a class="anthea-btn primary" href="/products/">Discover Our Seedlings</a>
+      <a class="anthea-btn ghost" href="/open-source-seeds/">What Are Open-Source Seeds?</a>
+    </div>
 
-<a class="anthea-btn primary" href="/products/">Discover Our Seedlings</a>
-<a class="anthea-btn ghost" href="/open-source-seeds/">What Are Open-Source Seeds?</a>
+  </div>
+</div>
 
-<hr class="anthea-divider">
+<div class="anthea-band alt">
+  <div class="anthea-band-inner">
+    <h2>The Problem</h2>
+    <p>Farms face climate stress, labour shortages, and increasingly closed seed systems.</p>
+    <ul>
+      <li>Climate variability and rising production risk</li>
+      <li>Seed systems increasingly locked behind restrictive licenses</li>
+      <li>Weak early conditioning limits field performance</li>
+    </ul>
+  </div>
+</div>
+
+<div class="anthea-band">
+  <div class="anthea-band-inner">
+    <h2>Our Solution</h2>
+    <ul>
+      <li><strong>Vertical nursery</strong> as a precision conditioning lab</li>
+      <li><strong>Microbial &amp; mycorrhizal enhancement</strong> for early vigor</li>
+      <li><strong>Regenerative orchard</strong> as a living field laboratory</li>
+      <li><strong>Open-source genetics</strong> to keep breeding in the commons</li>
+    </ul>
+  </div>
+</div>
+
 
 
 <section class="anthea-section">
   <div class="anthea-card">
-  
-  # Anthea — Open-Source Seedling Biotechnology for the Future of Agriculture
-
-Anthea develops the next generation of high-uniformity, biology-enhanced seedlings for European farms.
-
-We combine controlled-environment precision, microbial and mycorrhizal enhancement, and open-source genetics to create seedlings that are ready for **open field, greenhouses, agrivoltaics, and vertical farms**.
-
-<div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-  <a href="/products/" class="button">Discover Our Seedlings</a>
-  <a href="/open-source-seeds/" class="button button-outline">What Are Open-Source Seeds?</a>
-</div>
-  </div>
-</section>
-
-<hr class="anthea-divider">
-
-
-## Why Anthea?
+ 
+# Why Anthea?
 
 - Farms are facing **climate stress, labour shortages and volatile markets**.
 - Seed systems are becoming more **closed and proprietary**.
@@ -44,7 +58,14 @@ We combine controlled-environment precision, microbial and mycorrhizal enhanceme
 
 Anthea exists to restore **resilience, transparency and adaptability** in plant material.
 
----
+</div>
+</section>
+
+
+<hr class="anthea-divider">
+
+<section class="anthea-section">
+  <div class="anthea-card">
 
 ## A Hybrid Agricultural Platform
 
@@ -56,7 +77,15 @@ We operate as a hybrid platform:
 
 This hybrid model lets us spare land with compact indoor propagation and return land to regenerative use.
 
----
+</div>
+</section>
+
+
+<hr class="anthea-divider">
+
+<section class="anthea-section">
+  <div class="anthea-card">
+
 
 ## What We Offer
 
@@ -67,7 +96,15 @@ This hybrid model lets us spare land with compact indoor propagation and return 
 
 [Explore our products →](/products/)
 
----
+</div>
+</section>
+
+
+<hr class="anthea-divider">
+
+<section class="anthea-section">
+  <div class="anthea-card">
+
 
 ## Open-Source Seeds, Open Future
 
@@ -81,7 +118,15 @@ Our varieties will be released under open-source seed licenses that:
 
 [Learn more →](/open-source-seeds/)
 
----
+</div>
+</section>
+
+
+<hr class="anthea-divider">
+
+<section class="anthea-section">
+  <div class="anthea-card">
+
 
 ## Science Meets Practice
 
@@ -93,7 +138,15 @@ Anthea stands at the intersection of:
 
 [Read about our science →](/science/)
 
----
+</div>
+</section>
+
+
+<hr class="anthea-divider">
+
+<section class="anthea-section">
+  <div class="anthea-card">
+
 
 ## Stay in Touch
 
@@ -105,3 +158,5 @@ We are building an open, collaborative movement for resilient agriculture.
 
 [Contact us →](/contact/)
 
+</div>
+</section>
