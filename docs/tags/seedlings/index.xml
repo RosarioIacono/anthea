@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Seedlings on Anthea</title>
+    <link>http://localhost:1313/tags/seedlings/</link>
+    <description>Recent content in Seedlings on Anthea</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/seedlings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Anthea Starts with Seedlings</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Seedlings are the most fragile — and most decisive — stage in a plant’s life.&lt;/p&gt;
+&lt;p&gt;In Anthea, we start from seedlings because this is where &lt;strong&gt;biology, environment, and genetics first meet&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;More coming soon.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

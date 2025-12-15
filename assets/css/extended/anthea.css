@@ -1,0 +1,164 @@
+/* =========================================================
+   Anthea Corporate Design — PaperMod Extension
+   ========================================================= */
+
+/* 1) Brand tokens */
+:root {
+  --anthea-ink: #383f51;
+  --anthea-green: #00703c;
+  --anthea-green-soft: #09a958;
+  --anthea-blue: #8fb8de;
+  --anthea-purple: #9401aa;
+  --anthea-red: #ff5a5f;
+  --anthea-orange: #ffa62b;
+
+  --anthea-bg: #f4eee9; /* warm background */
+  --anthea-bg-card: #f7f3ee;
+}
+
+/* 2) Base typography */
+body {
+  color: var(--anthea-ink);
+}
+
+h1, h2, h3, h4 {
+  color: var(--anthea-ink);
+  letter-spacing: -0.02em;
+}
+
+/* 3) Links */
+a {
+  color: var(--anthea-green);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--anthea-green-soft);
+}
+
+/* 4) Header / navigation */
+.header {
+  border-bottom: 1px solid color-mix(in srgb, var(--anthea-green) 15%, transparent);
+}
+
+.header .logo img {
+  max-height: 42px;
+}
+
+/* 5) Buttons */
+.anthea-btn {
+  display: inline-block;
+  padding: 0.65rem 1.05rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.anthea-btn.primary {
+  background: var(--anthea-green);
+  color: white;
+  border: 1px solid var(--anthea-green);
+}
+
+.anthea-btn.primary:hover {
+  background: var(--anthea-green-soft);
+  border-color: var(--anthea-green-soft);
+}
+
+.anthea-btn.ghost {
+  background: transparent;
+  color: var(--anthea-green);
+  border: 1px solid var(--anthea-green);
+}
+
+.anthea-btn.ghost:hover {
+  background: color-mix(in srgb, var(--anthea-green) 8%, transparent);
+}
+
+/* 6) Cards / sections */
+.anthea-card {
+  background: var(--anthea-bg-card);
+  border: 1px solid color-mix(in srgb, var(--anthea-green) 18%, transparent);
+  border-radius: 18px;
+  padding: 1.3rem 1.4rem;
+  margin: 1.4rem 0;
+}
+
+/* 7) Blockquotes */
+blockquote {
+  border-left: 4px solid var(--anthea-blue);
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* 8) Inline emphasis */
+.em-green {
+  color: var(--anthea-green);
+  font-weight: 600;
+}
+
+.em-purple {
+  color: var(--anthea-purple);
+  font-weight: 600;
+}
+
+.em-alert {
+  color: var(--anthea-red);
+  font-weight: 600;
+}
+
+/* 9) Homepage hero polish */
+.home h1 {
+  margin-top: 0.6rem;
+}
+
+.home img[alt="Anthea logo"] {
+  display: block;
+  margin: 0 auto 1.6rem auto;
+}
+
+/* ===== Homepage rhythm ===== */
+
+.anthea-section {
+  margin: 2.2rem 0;
+}
+
+.home .main {
+  padding-top: 1.8rem;
+}
+
+/* Tighten huge gaps, keep it elegant */
+.home h1 { margin-bottom: 0.6rem; }
+.home h2 { margin-top: 1.2rem; }
+
+/* Make cards feel like deliberate sections */
+.anthea-card {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+/* Optional: subtle divider line between sections (class-based) */
+.anthea-divider {
+  height: 1px;
+  background: color-mix(in srgb, var(--anthea-green) 14%, transparent);
+  margin: 2rem 0;
+  border: 0;
+}
+
+/* ===== Hero polish ===== */
+.anthea-hero-logo {
+  width: 170px;
+  display: block;
+  margin: 0 auto 1.2rem auto;
+}
+
+.anthea-hero-subtitle {
+  max-width: 52rem;
+  margin: 0.7rem auto 1.2rem auto;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  opacity: 0.92;
+}
+
+

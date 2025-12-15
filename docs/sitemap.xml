@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/our-story/</loc>
-  </url><url>
-    <loc>http://localhost:1313/products/</loc>
-  </url><url>
-    <loc>http://localhost:1313/open-source-seeds/</loc>
-  </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-11-01T08:00:00+00:00</lastmod>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/press/</loc>
-  </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/tags/agriculture/</loc>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2023-11-01T08:00:00+00:00</lastmod>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/open-source/</loc>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/seedlings/</loc>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/beyond-patents/</loc>
     <lastmod>2023-11-01T08:00:00+00:00</lastmod>
@@ -44,9 +47,6 @@
     <loc>http://localhost:1313/tags/seed-commons/</loc>
     <lastmod>2023-11-01T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-11-01T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/urban-farming/</loc>
     <lastmod>2023-11-01T08:00:00+00:00</lastmod>
   </url><url>
@@ -68,14 +68,22 @@
     <loc>http://localhost:1313/categories/vertical-farming/</loc>
     <lastmod>2023-10-25T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/content/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/examples/</loc>
+    <loc>http://localhost:1313/open-source-seeds/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/mission/</loc>
+    <loc>http://localhost:1313/solution/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/story/</loc>
+    <loc>http://localhost:1313/press/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/</loc>
+  </url><url>
+    <loc>http://localhost:1313/science/</loc>
+  </url><url>
+    <loc>http://localhost:1313/facility/</loc>
+  </url><url>
+    <loc>http://localhost:1313/problem/</loc>
   </url>
 </urlset>

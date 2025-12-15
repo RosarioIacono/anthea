@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Story on Anthea</title>
     <link>http://localhost:1313/tags/story/</link>
     <description>Recent content in Story on Anthea</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/story/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/our-story/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/our-story/</guid>
-      <description>&lt;h2 id=&#34;our-story&#34;&gt;Our Story&lt;/h2&gt;&#xA;&lt;p&gt;Anthea was born from a simple idea: to make high-quality seeds for vertical farming accessible to everyone. We noticed that most indoor farming varieties were locked behind proprietary systems, limiting innovation and slowing progress. Our founders, passionate about both plant breeding and open collaboration, decided to take a different path.&lt;/p&gt;&#xA;&lt;p&gt;We combine advanced breeding techniques with a community-driven, open-source approach. By sharing our varieties freely, we empower growers, researchers, and innovators to adapt and improve seeds for their unique environments. Every step we take, from selecting traits to testing in controlled environments, is guided by the goal of creating resilient, high-performing crops while fostering a collaborative, transparent food system.&lt;/p&gt;</description>
+      <description>The journey behind Anthea.</description>
     </item>
   </channel>
 </rss>

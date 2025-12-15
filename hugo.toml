@@ -1,6 +1,102 @@
-baseurl = "https://anthea.netlify.app/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseURL = "https://anthea.netlify.app/"
 title = "Anthea"
-theme = "hugo-arcana"
+theme = "PaperMod"
 themesDir = "themes"
 languageCode = "en-us"
 publishDir = "docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+# Required
+[pagination]
+  pagerSize = 10
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Outputs for search (JSON)
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "Anthea – Open-source horticultural biotechnology creating the next generation of high-uniformity, biology-enhanced seedlings for European agriculture."
+  author = "Anthea"
+  defaultTheme = "auto" # light/dark/auto
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+
+  # Homepage: show content from _index.md
+  homeInfoParams = { Title = "Anthea", Content = "Open-source seedling biotechnology for resilient European agriculture." }
+
+  # Disable taxonomy pages if you don’t need them much (optional)
+  disableTaxonomies = false
+
+  [params.label]
+    text = " "
+    icon = "/images/logo.png"
+    iconHeight = 150
+
+
+# Main menu
+[menu]
+
+  [[menu.main]]
+    name = "Problem"
+    url = "/problem/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Solution"
+    url = "/solution/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Products"
+    url = "/products/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Open-Source Seeds"
+    url = "/open-source-seeds/"
+    weight = 40
+
+  [[menu.main]]
+    name = "Science"
+    url = "/science/"
+    weight = 50
+
+  [[menu.main]]
+    name = "Facility"
+    url = "/facility/"
+    weight = 60
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 70
+
+
+  [[menu.main]]
+    name = "Press"
+    url = "/press/"
+    weight = 80
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 90
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 100

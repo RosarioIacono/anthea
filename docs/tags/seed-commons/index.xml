@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Seed Commons on Anthea</title>
     <link>http://localhost:1313/tags/seed-commons/</link>
     <description>Recent content in Seed Commons on Anthea</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Nov 2023 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/seed-commons/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/beyond-patents/</link>
       <pubDate>Wed, 01 Nov 2023 08:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/beyond-patents/</guid>
-      <description>&lt;p&gt;As cities expand and climate patterns shift, urban agriculture and vertical farming have become critical to building local food resilience. Yet, many of these cutting-edge growing systems rely on a centuries-old model of seed ownership. The open-source seed movement challenges this paradigm, offering a framework for collaboration that is essential for the sustainable growth of urban food production.&lt;/p&gt;</description>
+      <description>Exploring how open-source seeds are reviving the ancient tradition of seed sharing to build resilience in modern urban food systems.</description>
     </item>
   </channel>
 </rss>

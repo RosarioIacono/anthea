@@ -1,68 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Anthea</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Anthea</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Nov 2023 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Our Story</title>
-      <link>http://localhost:1313/our-story/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/our-story/</guid>
-      <description>&lt;h2 id=&#34;our-story&#34;&gt;Our Story&lt;/h2&gt;&#xA;&lt;p&gt;Anthea was born from a simple idea: to make high-quality seeds for vertical farming accessible to everyone. We noticed that most indoor farming varieties were locked behind proprietary systems, limiting innovation and slowing progress. Our founders, passionate about both plant breeding and open collaboration, decided to take a different path.&lt;/p&gt;&#xA;&lt;p&gt;We combine advanced breeding techniques with a community-driven, open-source approach. By sharing our varieties freely, we empower growers, researchers, and innovators to adapt and improve seeds for their unique environments. Every step we take, from selecting traits to testing in controlled environments, is guided by the goal of creating resilient, high-performing crops while fostering a collaborative, transparent food system.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Products</title>
-      <link>http://localhost:1313/products/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/</guid>
-      <description>&lt;h3 id=&#34;seeds-for-vertical-farms&#34;&gt;Seeds for Vertical Farms&lt;/h3&gt;&#xA;&lt;p&gt;Anthea develops &lt;strong&gt;open-source seeds optimized for vertical farming&lt;/strong&gt;.&lt;br&gt;&#xA;Our varieties are tested in controlled environments, with traits like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🌱 Compact growth&lt;/li&gt;&#xA;&lt;li&gt;💡 Efficient use of light&lt;/li&gt;&#xA;&lt;li&gt;💧 Better performance in hydroponics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We are currently running trials and building a &lt;strong&gt;catalog of varieties&lt;/strong&gt; for farmers who want higher yields and sustainability indoors.&lt;/p&gt;&#xA;&lt;p&gt;➡️ &lt;strong&gt;Coming soon: Open variety catalog 2025.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Open Source Seeds</title>
-      <link>http://localhost:1313/open-source-seeds/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/open-source-seeds/</guid>
-      <description>&lt;h3 id=&#34;seeds-belong-to-everyone&#34;&gt;Seeds Belong to Everyone&lt;/h3&gt;&#xA;&lt;p&gt;We believe seeds should be &lt;strong&gt;a common good&lt;/strong&gt;, not locked behind patents.&lt;br&gt;&#xA;Anthea uses the &lt;strong&gt;Open Source Seed license&lt;/strong&gt; to guarantee:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Seeds remain free for use, sharing, and breeding.&lt;/li&gt;&#xA;&lt;li&gt;Innovation happens collaboratively, not in silos.&lt;/li&gt;&#xA;&lt;li&gt;Agrobiodiversity is preserved for future generations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;🌍 &lt;strong&gt;Join the community&lt;/strong&gt;: help us test, breed, and share new varieties.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Press &amp; Supporters</title>
-      <link>http://localhost:1313/press/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/press/</guid>
-      <description>&lt;h3 id=&#34;supported-by&#34;&gt;Supported by&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;UFZ Transfer Department&lt;/strong&gt; (TranFund)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;EIT Food Fellowship&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Weinberg Campus Elevator&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;press-mentions&#34;&gt;Press Mentions&lt;/h3&gt;&#xA;&lt;p&gt;📌 Coming soon: media coverage, articles, and interviews.&lt;/p&gt;&#xA;&lt;p&gt;Are you a journalist or researcher?&lt;br&gt;&#xA;📧 &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Contact us&lt;/a&gt; for press materials.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description></description>
+      <title>Why Anthea Starts with Seedlings</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Seedlings are the most fragile — and most decisive — stage in a plant’s life.&lt;/p&gt;
+&lt;p&gt;In Anthea, we start from seedlings because this is where &lt;strong&gt;biology, environment, and genetics first meet&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;More coming soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beyond Patents: Building a Shared Seed Commons for Urban Agriculture</title>
       <link>http://localhost:1313/posts/beyond-patents/</link>
       <pubDate>Wed, 01 Nov 2023 08:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/beyond-patents/</guid>
-      <description>&lt;p&gt;As cities expand and climate patterns shift, urban agriculture and vertical farming have become critical to building local food resilience. Yet, many of these cutting-edge growing systems rely on a centuries-old model of seed ownership. The open-source seed movement challenges this paradigm, offering a framework for collaboration that is essential for the sustainable growth of urban food production.&lt;/p&gt;</description>
+      <description>Exploring how open-source seeds are reviving the ancient tradition of seed sharing to build resilience in modern urban food systems.</description>
     </item>
     <item>
       <title>The Seed Revolution: How Open-Source Genetics Unlock Vertical Farming&#39;s Potential</title>
       <link>http://localhost:1313/posts/the-seed-revolution/</link>
       <pubDate>Wed, 25 Oct 2023 08:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/the-seed-revolution/</guid>
-      <description>&lt;p&gt;In the controlled, high-tech environment of a vertical farm, every variable is optimized for growth—light, temperature, nutrients. But there&amp;rsquo;s one fundamental component that often remains locked in a proprietary system: the seed. Open-source seeds are emerging as a transformative force, poised to bridge this gap and create a more resilient, adaptable, and equitable foundation for the future of urban agriculture.&lt;/p&gt;</description>
+      <description>Discover how open-source seeds are breaking proprietary locks to create a more resilient and adaptable future for vertical farming.</description>
     </item>
   </channel>
 </rss>
