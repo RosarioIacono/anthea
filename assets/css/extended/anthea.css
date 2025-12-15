@@ -285,6 +285,156 @@ blockquote {
   padding: 0 var(--anthea-frame-pad);
 }
 
+/* ===== Anthea funnel homepage components ===== */
+
+/* Alternating bands (base transparent, even gets bg) */
+.anthea-band{
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 3rem 0;
+  background: transparent;
+  border-top: 1px solid color-mix(in srgb, var(--anthea-green) 12%, transparent);
+}
+.anthea-band:nth-of-type(even){
+  background: var(--anthea-bg-card);
+  border-top-color: color-mix(in srgb, var(--anthea-blue) 14%, transparent);
+}
+
+.anthea-band-inner{
+  max-width: var(--anthea-content-width);
+  margin: 0 auto;
+  padding: 0 var(--anthea-frame-pad);
+}
+
+/* Hero */
+.anthea-hero-logo{
+  display:block !important;
+  margin: 0 auto 1.6rem auto !important;
+  width: 220px;
+  max-width: 80%;
+  height: auto;
+  float: none !important;
+}
+.anthea-hero-subtitle{
+  max-width: 760px;
+  margin: 0.8rem auto 1.2rem auto;
+  font-size: 1.15rem;
+  line-height: 1.65;
+  opacity: 0.92;
+  text-align: center;
+}
+.anthea-hero-actions{
+  display:flex;
+  justify-content:center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+.anthea-hero-illus{
+  width: 100%;
+  max-width: 860px;
+  display:block;
+  margin: 2rem auto 0 auto;
+  opacity: 0.98;
+}
+
+/* Muted helper */
+.anthea-muted{
+  opacity: 0.88;
+}
+
+/* Lists */
+.anthea-list{
+  margin-top: 1rem;
+}
+
+/* Logos row */
+.anthea-logos{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+.anthea-logos img{
+  height: 34px;
+  width: auto;
+  opacity: 0.92;
+  filter: grayscale(20%);
+}
+.anthea-logos img:hover{
+  opacity: 1;
+  filter: none;
+}
+
+/* Steps */
+.anthea-steps{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+.anthea-step{
+  display:flex;
+  gap: 0.9rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid color-mix(in srgb, var(--anthea-green) 14%, transparent);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--anthea-bg-card) 70%, transparent);
+}
+.anthea-step-kicker{
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--anthea-green) 14%, transparent);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight: 700;
+  color: var(--anthea-green);
+}
+
+/* Tiles / grids */
+.anthea-grid3{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.3rem;
+}
+.anthea-tile,
+.anthea-metric{
+  padding: 1.2rem 1.25rem;
+  border: 1px solid color-mix(in srgb, var(--anthea-green) 14%, transparent);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--anthea-bg-card) 70%, transparent);
+}
+.anthea-tile h3{
+  margin-top: 0.2rem;
+}
+.anthea-tile a{
+  display:inline-block;
+  margin-top: 0.6rem;
+}
+.anthea-tile-img{
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+}
+
+/* CTA row inside bands */
+.anthea-cta-row{
+  margin-top: 1.4rem;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  .anthea-steps{ grid-template-columns: 1fr; }
+  .anthea-grid3{ grid-template-columns: 1fr; }
+}
+@media (max-width: 600px){
+  :root{ --anthea-frame-pad: 1rem; }
+  .anthea-band{ padding: 2.2rem 0; }
+  .anthea-hero-logo{ width: 170px; }
+}
 
 
 

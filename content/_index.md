@@ -7,156 +7,184 @@ layout: "home"
   <div class="anthea-band-inner">
 
   <img src="/images/logo.png" alt="Anthea logo" class="anthea-hero-logo">
-    <h1>Anthea — Open-Source Seedling Biotechnology for the Future of Agriculture</h1>
-    <p class="anthea-hero-subtitle">
+
+  <h1>Open-Source Seedling Biotechnology for Resilient Agriculture</h1>
+
+  <p class="anthea-hero-subtitle">
       High-uniformity, biology-enhanced seedlings grown with vertical-farming precision
-      and tested in a regenerative orchard.
-    </p>
+      and validated in a regenerative orchard.
+  </p>
 
   <div class="anthea-hero-actions">
-      <a class="anthea-btn primary" href="/products/">Discover Our Seedlings</a>
-      <a class="anthea-btn ghost" href="/open-source-seeds/">What Are Open-Source Seeds?</a>
+      <a class="anthea-btn primary" href="/products/">Discover our seedlings</a>
+      <a class="anthea-btn ghost" href="/contact/">Start a trial</a>
+  </div>
+
+  <!-- Optional hero graphic (recommended) -->
+  <!-- <img src="/img/illus/orchard-facility.svg" alt="Anthea facility illustration" class="anthea-hero-illus"> -->
+
+</div>
+</div>
+
+<div class="anthea-band">
+  <div class="anthea-band-inner">
+
+  <h2>Supported by</h2>
+    <p class="anthea-muted">
+      Anthea is built within a network of research, innovation, and farming partners.
+    </p>
+
+  <!-- Replace these with your real supporter/partner logos -->
+  <div class="anthea-logos">
+      <img src="/img/logos/supporter-1.png" alt="Supporter 1">
+      <img src="/img/logos/supporter-2.png" alt="Supporter 2">
+      <img src="/img/logos/supporter-3.png" alt="Supporter 3">
+      <img src="/img/logos/supporter-4.png" alt="Supporter 4">
     </div>
 
   </div>
 </div>
 
-<div class="anthea-band alt">
+<div class="anthea-band">
   <div class="anthea-band-inner">
-    <h2>The Problem</h2>
-    <p>Farms face climate stress, labour shortages, and increasingly closed seed systems.</p>
-    <ul>
-      <li>Climate variability and rising production risk</li>
-      <li>Seed systems increasingly locked behind restrictive licenses</li>
-      <li>Weak early conditioning limits field performance</li>
+
+  <h2>The problem</h2>
+    <ul class="anthea-list">
+      <li><strong>Climate volatility</strong> increases production risk and narrows the window for success.</li>
+      <li><strong>Seed systems are closing</strong> behind restrictive licenses and patents.</li>
+      <li><strong>Seedlings often enter the field unprepared</strong>, limiting establishment and resilience.</li>
     </ul>
+
   </div>
 </div>
 
 <div class="anthea-band">
   <div class="anthea-band-inner">
-    <h2>Our Solution</h2>
-    <ul>
-      <li><strong>Vertical nursery</strong> as a precision conditioning lab</li>
-      <li><strong>Microbial &amp; mycorrhizal enhancement</strong> for early vigor</li>
-      <li><strong>Regenerative orchard</strong> as a living field laboratory</li>
-      <li><strong>Open-source genetics</strong> to keep breeding in the commons</li>
-    </ul>
+
+  <h2>Our solution</h2>
+    <p>
+      Anthea combines controlled environments, beneficial biology, and real-world validation to produce seedlings that perform beyond the nursery.
+    </p>
+
+  <div class="anthea-steps">
+      <div class="anthea-step">
+        <div class="anthea-step-kicker">1</div>
+        <div>
+          <strong>Vertical nursery</strong>
+          <div class="anthea-muted">Precision conditioning of early growth</div>
+        </div>
+  </div>
+
+  <div class="anthea-step">
+        <div class="anthea-step-kicker">2</div>
+        <div>
+          <strong>Biology enhancement</strong>
+          <div class="anthea-muted">Microbial &amp; mycorrhizal support</div>
+        </div>
+  </div>
+
+  <div class="anthea-step">
+        <div class="anthea-step-kicker">3</div>
+        <div>
+          <strong>Field validation</strong>
+          <div class="anthea-muted">Regenerative orchard as living lab</div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Optional: one simple infographic here -->
+  <!-- <img src="/img/illus/process-3step.svg" alt="Anthea process infographic" class="anthea-illus"> -->
+
   </div>
 </div>
 
+<div class="anthea-band">
+  <div class="anthea-band-inner">
 
+  <h2>What we offer</h2>
+    <p class="anthea-muted">
+      Biology-enhanced seedlings tailored for open field, greenhouse, agrivoltaics, and vertical farms.
+    </p>
 
-<section class="anthea-section">
-  <div class="anthea-card">
- 
-# Why Anthea?
+  <div class="anthea-grid3">
+      <div class="anthea-tile">
+        <!-- <img src="/img/products/tomato.jpg" alt="Tomato seedlings" class="anthea-tile-img"> -->
+        <h3>Tomato seedlings</h3>
+        <p>Uniform starts for predictable production and strong early vigor.</p>
+        <a href="/products/">View details →</a>
+  </div>
 
-- Farms are facing **climate stress, labour shortages and volatile markets**.
-- Seed systems are becoming more **closed and proprietary**.
-- Young plants are often **weakly conditioned** for real-world field conditions.
+  <div class="anthea-tile">
+        <!-- <img src="/img/products/cucurbit.jpg" alt="Cucurbit seedlings" class="anthea-tile-img"> -->
+        <h3>Cucurbit seedlings</h3>
+        <p>Robust establishment and stress tolerance in diverse systems.</p>
+        <a href="/products/">View details →</a>
+  </div>
 
-Anthea exists to restore **resilience, transparency and adaptability** in plant material.
+  <div class="anthea-tile">
+        <!-- <img src="/img/products/herbs.jpg" alt="Herb seedlings" class="anthea-tile-img"> -->
+        <h3>Herb seedlings</h3>
+        <p>Compact, aromatic seedlings for controlled and diversified production.</p>
+        <a href="/products/">View details →</a>
+      </div>
+  </div>
 
+  <div class="anthea-cta-row">
+      <a class="anthea-btn ghost" href="/products/">See all products</a>
+  </div>
+
+  </div>
 </div>
-</section>
 
+<div class="anthea-band">
+  <div class="anthea-band-inner">
 
-<hr class="anthea-divider">
+  <h2>Open-source seeds</h2>
+    <p>
+      Anthea releases varieties under open-source seed licenses so genetics remain usable, improvable, and shareable—forever.
+  </p>
 
-<section class="anthea-section">
-  <div class="anthea-card">
+  <div class="anthea-cta-row">
+      <a class="anthea-btn ghost" href="/open-source-seeds/">Learn how it works</a>
+  </div>
 
-## A Hybrid Agricultural Platform
-
-We operate as a hybrid platform:
-
-- A **500 m² vertical nursery**, functioning as a precision conditioning lab.
-- A **regenerative orchard**, acting as a living field laboratory for agroecology and biodiversity.
-- An **open-source genetics backbone**, ensuring that varieties remain accessible, improvable, and shareable.
-
-This hybrid model lets us spare land with compact indoor propagation and return land to regenerative use.
-
+  </div>
 </div>
-</section>
 
+<div class="anthea-band">
+  <div class="anthea-band-inner">
 
-<hr class="anthea-divider">
+  <h2>What you gain</h2>
 
-<section class="anthea-section">
-  <div class="anthea-card">
+  <div class="anthea-grid3">
+      <div class="anthea-metric">
+        <strong>Uniformity</strong>
+        <p>More predictable planning, scheduling, and production cycles.</p>
+      </div>
+      <div class="anthea-metric">
+        <strong>Early vigor</strong>
+        <p>Faster establishment and improved resilience after transplant.</p>
+      </div>
+      <div class="anthea-metric">
+        <strong>Freedom</strong>
+        <p>Open genetics: no lock-in, transparent improvement paths.</p>
+      </div>
+    </div>
 
-
-## What We Offer
-
-- **Biology-enhanced seedlings** of tomato, cucurbits, and herbs.
-- Seedlings tailored to **open field, greenhouse, agrivoltaic systems, and vertical farms**.
-- Access to **open-source varieties** with transparent licensing.
-- A research-driven approach grounded in plant physiology, microbiology, and agroecology.
-
-[Explore our products →](/products/)
-
+  </div>
 </div>
-</section>
 
+<div class="anthea-band">
+  <div class="anthea-band-inner">
 
-<hr class="anthea-divider">
+  <h2>Start a trial with Anthea</h2>
+    <p class="anthea-muted">
+      Are you a farm, greenhouse, agrivoltaic project, or vertical farm? Let’s test biology-enhanced seedlings in your system.
+  </p>
 
-<section class="anthea-section">
-  <div class="anthea-card">
+  <div class="anthea-cta-row">
+      <a class="anthea-btn primary" href="/contact/">Contact us</a>
+  </div>
 
-
-## Open-Source Seeds, Open Future
-
-We believe that the genetic basis of our food system should be a **commons**, not a black box.
-
-Our varieties will be released under open-source seed licenses that:
-
-- forbid monopolisation by patents,
-- allow anyone to use, reproduce and breed,
-- invite farmers and breeders into the improvement loop.
-
-[Learn more →](/open-source-seeds/)
-
+  </div>
 </div>
-</section>
-
-
-<hr class="anthea-divider">
-
-<section class="anthea-section">
-  <div class="anthea-card">
-
-
-## Science Meets Practice
-
-Anthea stands at the intersection of:
-
-- **Vertical farming** as a precision engineering platform,
-- **Microbial and mycorrhizal symbioses** as biological leverage,
-- **Regenerative orchards** as real-world testing grounds.
-
-[Read about our science →](/science/)
-
-</div>
-</section>
-
-
-<hr class="anthea-divider">
-
-<section class="anthea-section">
-  <div class="anthea-card">
-
-
-## Stay in Touch
-
-We are building an open, collaborative movement for resilient agriculture.
-
-- Are you a farmer interested in early trials?
-- A vertical farm or agrivoltaic project looking for conditioned seedlings?
-- A researcher, breeder, or open-source enthusiast?
-
-[Contact us →](/contact/)
-
-</div>
-</section>
