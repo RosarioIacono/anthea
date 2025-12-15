@@ -265,10 +265,18 @@ blockquote {
 .anthea-band {
   width: 100vw;
   margin-left: calc(50% - 50vw);
-  background: var(--anthea-bg-card);
-  padding: 2.2rem 0;
+  padding: 2.6rem 0;
+  background: transparent; /* ← base */
   border-top: 1px solid color-mix(in srgb, var(--anthea-green) 10%, transparent);
-  border-bottom: 1px solid color-mix(in srgb, var(--anthea-green) 10%, transparent);
+}
+
+.anthea-band:nth-of-type(even) {
+  background: var(--anthea-bg-card);
+}
+
+/* Optional: slightly different accent on alternating bands */
+.anthea-band:nth-of-type(even) {
+  border-top-color: color-mix(in srgb, var(--anthea-blue) 14%, transparent);
 }
 
 .anthea-band-inner {
@@ -276,6 +284,7 @@ blockquote {
   margin: 0 auto;
   padding: 0 var(--anthea-frame-pad);
 }
+
 
 
 
