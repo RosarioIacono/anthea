@@ -4,7 +4,7 @@ GO_VERSION = "1.25.3"
 HUGO_VERSION = "0.149.0"
 NODE_VERSION = "22.20.0"
 TZ = "Europe/Oslo"
-HUGO_THEME = "hugo-arcana"
+HUGO_THEME = "PaperMod"
 
 [build]
 publish = "docs"
