@@ -1,0 +1,116 @@
+---
+// src/components/Nav.astro
+//
+// A clean, sticky navigation bar.
+// On mobile it collapses to a hamburger menu (JS-powered, no dependencies).
+// The active page link is highlighted via Astro.url.pathname comparison.
+
+const navLinks = [
+  { href: '/problem/',          label: 'Problem' },
+  { href: '/solution/',         label: 'Solution' },
+  { href: '/products/',         label: 'Products' },
+  { href: '/open-source-seeds/', label: 'Open Seeds' },
+  { href: '/science/',          label: 'Science' },
+  { href: '/facility/',         label: 'Facility' },
+  { href: '/posts/',            label: 'Blog' },
+  { href: '/about/',            label: 'About' },
+];
+
+const pathname = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 bg-bark/95 backdrop-blur-sm border-b border-white/10">
+  <nav class="section-wrap flex items-center justify-between h-16">
+
+    <!-- Logo / wordmark -->
+    <a href="/" class="flex items-center gap-3 group" aria-label="Anthea home">
+      <img src="/images/logo.png" alt="" class="h-7 w-auto" />
+      <span class="font-heading font-semibold text-linen text-lg tracking-wide
+                   group-hover:text-ochre transition-colors duration-200">
+        Anthea
+      </span>
+    </a>
+
+    <!-- Desktop nav links -->
+    <ul class="hidden lg:flex items-center gap-1">
+      {navLinks.map(({ href, label }) => {
+        const isActive = pathname === href || pathname.startsWith(href);
+        return (
+          <li>
+            <a
+              href={href}
+              class:list={[
+                'font-heading text-sm px-3 py-2 rounded-sm transition-colors duration-200',
+                isActive
+                  ? 'text-ochre font-medium'
+                  : 'text-linen/70 hover:text-linen hover:bg-white/5',
+              ]}
+            >
+              {label}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+
+    <!-- CTA button — desktop only -->
+    <a href="/contact/" class="hidden lg:inline-block btn-primary text-xs py-2 px-4">
+      Start a trial
+    </a>
+
+    <!-- Mobile hamburger toggle -->
+    <button
+      id="mobile-menu-toggle"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      aria-label="Toggle navigation"
+      class="lg:hidden flex flex-col gap-1.5 p-2"
+    >
+      <span class="block w-6 h-px bg-linen transition-all duration-200" id="bar-1"></span>
+      <span class="block w-6 h-px bg-linen transition-all duration-200" id="bar-2"></span>
+      <span class="block w-4 h-px bg-linen transition-all duration-200" id="bar-3"></span>
+    </button>
+  </nav>
+
+  <!-- Mobile dropdown menu -->
+  <div
+    id="mobile-menu"
+    class="hidden lg:hidden bg-bark border-t border-white/10 pb-4"
+    role="navigation"
+  >
+    <ul class="section-wrap flex flex-col gap-1 pt-2">
+      {navLinks.map(({ href, label }) => (
+        <li>
+          <a
+            href={href}
+            class="block font-heading text-sm text-linen/80 hover:text-linen
+                   px-3 py-2.5 rounded-sm hover:bg-white/5 transition-colors"
+          >
+            {label}
+          </a>
+        </li>
+      ))}
+      <li class="pt-2">
+        <a href="/contact/" class="btn-primary text-xs w-full text-center block">
+          Start a trial
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('mobile-menu-toggle');
+  const menu   = document.getElementById('mobile-menu');
+  const bar1   = document.getElementById('bar-1');
+  const bar3   = document.getElementById('bar-3');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = menu?.classList.contains('hidden') === false;
+    menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+    // Animate the third bar width as a subtle open indicator
+    bar3?.classList.toggle('w-6');
+    bar3?.classList.toggle('w-4');
+  });
+</script>

@@ -1,0 +1,71 @@
+---
+// src/pages/posts/index.astro
+//
+// Blog index page. getCollection('posts') fetches all markdown files
+// from src/content/posts/. Sorted by date, newest first.
+// To add a new post: create a .md file in src/content/posts/.
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Blog" description="Insights on open-source seeds, mycorrhizal biology, and the future of controlled-environment agriculture.">
+  <section class="page-hero">
+    <div class="section-wrap max-w-3xl">
+      <span class="inline-block font-heading text-xs uppercase tracking-widest text-ochre mb-4">Blog</span>
+      <h1 class="font-heading text-4xl md:text-6xl font-semibold text-linen">
+        From the field and the lab
+      </h1>
+      <p class="text-linen/70 text-lg mt-6 max-w-xl">
+        Writing on open-source seeds, mycorrhizal ecology, and the science of
+        better seedlings.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28 bg-linen">
+    <div class="section-wrap max-w-4xl">
+      {posts.length === 0 ? (
+        <p class="text-stone text-center py-16">No posts yet — check back soon.</p>
+      ) : (
+        <div class="space-y-0">
+          {posts.map((post, i) => {
+            const formattedDate = post.data.pubDate.toLocaleDateString('en-GB', {
+              day: 'numeric', month: 'long', year: 'numeric'
+            });
+            return (
+              <article class={`reveal ${i > 0 ? 'reveal-delay-1' : ''} py-10 border-b border-stone/10 grid md:grid-cols-4 gap-6`}>
+                <div class="md:col-span-1">
+                  <time class="font-heading text-xs text-stone">{formattedDate}</time>
+                  {post.data.tags && (
+                    <div class="flex flex-wrap gap-2 mt-3">
+                      {post.data.tags.slice(0, 2).map(tag => (
+                        <span class="tag">{tag}</span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                <div class="md:col-span-3">
+                  <h2 class="font-heading text-xl font-semibold text-soil mb-3 leading-snug">
+                    <a href={`/posts/${post.slug}/`} class="hover:text-ochre transition-colors">
+                      {post.data.title}
+                    </a>
+                  </h2>
+                  {post.data.description && (
+                    <p class="text-stone text-sm leading-relaxed mb-4">{post.data.description}</p>
+                  )}
+                  <a href={`/posts/${post.slug}/`} class="text-ochre font-heading text-sm font-medium hover:text-ochre_dark transition-colors">
+                    Read →
+                  </a>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

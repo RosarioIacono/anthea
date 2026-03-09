@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Contact" description="Get in touch with Anthea to start a seedling trial or discuss a collaboration.">
+  <section class="page-hero">
+    <div class="section-wrap max-w-3xl">
+      <span class="inline-block font-heading text-xs uppercase tracking-widest text-ochre mb-4">Contact</span>
+      <h1 class="font-heading text-4xl md:text-6xl font-semibold text-linen">Let's grow together</h1>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28 bg-linen">
+    <div class="section-wrap">
+      <div class="grid md:grid-cols-2 gap-16">
+
+        <!-- Contact reasons -->
+        <div class="reveal">
+          <h2 class="font-heading text-2xl font-semibold text-soil mb-8">Who should reach out</h2>
+          <div class="space-y-6">
+            {[
+              ['Farms & growers', 'Interested in trialling biology-enhanced seedlings in your system.'],
+              ['Greenhouses & vertical farms', 'Looking for open-source genetics tailored to CEA conditions.'],
+              ['Research partners', 'Interested in collaboration on AMF inoculation or open breeding.'],
+              ['Press & media', 'Covering open-source seeds, agrifood innovation, or urban farming.'],
+              ['Investors', 'Anthea is building toward a seed round post-profitability. Curious minds welcome.'],
+            ].map(([title, body]) => (
+              <div class="flex items-start gap-4">
+                <span class="text-ochre mt-1 shrink-0">◆</span>
+                <div>
+                  <h3 class="font-heading font-semibold text-soil text-sm">{title}</h3>
+                  <p class="text-stone text-xs mt-1 leading-relaxed">{body}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <!-- 
+          This uses Netlify Forms — add data-netlify="true" and the form works
+          automatically on Netlify with no backend code needed.
+          You'll receive submissions by email. Free up to 100 submissions/month.
+        -->
+        <div class="reveal reveal-delay-2">
+          <h2 class="font-heading text-2xl font-semibold text-soil mb-8">Get in touch</h2>
+
+          <form name="contact" method="POST" data-netlify="true" class="space-y-5">
+            <input type="hidden" name="form-name" value="contact" />
+
+            <div>
+              <label class="block font-heading text-xs uppercase tracking-widest text-stone mb-2" for="name">
+                Name
+              </label>
+              <input
+                id="name" name="name" type="text" required
+                class="w-full bg-linen_dark border border-stone/20 rounded-sm px-4 py-3
+                       font-body text-sm text-soil placeholder-stone/40
+                       focus:outline-none focus:border-ochre transition-colors"
+                placeholder="Your name"
+              />
+            </div>
+
+            <div>
+              <label class="block font-heading text-xs uppercase tracking-widest text-stone mb-2" for="email">
+                Email
+              </label>
+              <input
+                id="email" name="email" type="email" required
+                class="w-full bg-linen_dark border border-stone/20 rounded-sm px-4 py-3
+                       font-body text-sm text-soil placeholder-stone/40
+                       focus:outline-none focus:border-ochre transition-colors"
+                placeholder="you@farm.com"
+              />
+            </div>
+
+            <div>
+              <label class="block font-heading text-xs uppercase tracking-widest text-stone mb-2" for="context">
+                Your context
+              </label>
+              <select
+                id="context" name="context"
+                class="w-full bg-linen_dark border border-stone/20 rounded-sm px-4 py-3
+                       font-body text-sm text-soil
+                       focus:outline-none focus:border-ochre transition-colors"
+              >
+                <option value="">Select...</option>
+                <option>Open field farm</option>
+                <option>Greenhouse / tunnel</option>
+                <option>Agrivoltaic project</option>
+                <option>Vertical farm / CEA</option>
+                <option>Research institution</option>
+                <option>Press / media</option>
+                <option>Investor</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block font-heading text-xs uppercase tracking-widest text-stone mb-2" for="message">
+                Message
+              </label>
+              <textarea
+                id="message" name="message" rows="5" required
+                class="w-full bg-linen_dark border border-stone/20 rounded-sm px-4 py-3
+                       font-body text-sm text-soil placeholder-stone/40
+                       focus:outline-none focus:border-ochre transition-colors resize-none"
+                placeholder="Tell us about your project, operation, or question..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary w-full text-center">
+              Send message
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</BaseLayout>

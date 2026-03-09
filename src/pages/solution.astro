@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Our Solution" description="How Anthea combines vertical farming precision, mycorrhizal biology, and field validation to produce better seedlings.">
+  <section class="page-hero">
+    <div class="section-wrap max-w-3xl">
+      <span class="inline-block font-heading text-xs uppercase tracking-widest text-ochre mb-4">Approach</span>
+      <h1 class="font-heading text-4xl md:text-6xl font-semibold text-linen leading-tight">
+        Biology, precision,<br />validation
+      </h1>
+      <p class="text-linen/70 text-lg mt-6 max-w-xl">
+        Three integrated components that work together — from the nursery to the field.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28 bg-linen">
+    <div class="section-wrap">
+      <div class="space-y-16 max-w-3xl mx-auto">
+        {[
+          {
+            n: '01',
+            title: 'Vertical nursery — precision from day one',
+            body: `Our nursery uses controlled-environment agriculture to standardise early seedling development. 
+            Light spectra, VPD, temperature, and irrigation are tuned for each crop and target system. 
+            This eliminates the variability of conventional nursery production and gives us a repeatable 
+            platform for biological intervention.`,
+          },
+          {
+            n: '02',
+            title: 'Biology enhancement — inoculation at the seedling stage',
+            body: `We introduce arbuscular mycorrhizal fungi and plant growth-promoting microbes during nursery 
+            production — before transplant. This gives seedlings a ready-made microbial support network that 
+            activates as soon as roots contact field soil. The result is faster establishment, better nutrient 
+            access, and improved drought tolerance from day one in the field.`,
+          },
+          {
+            n: '03',
+            title: 'Field validation — a living laboratory',
+            body: `Our regenerative orchard serves as a long-term validation site where seedlings face real 
+            biological and environmental complexity. Data from the orchard feeds back into nursery protocols. 
+            This closes the loop between controlled-environment production and real agricultural performance — 
+            something most CEA nurseries skip entirely.`,
+          },
+        ].map(step => (
+          <div class="reveal grid md:grid-cols-6 gap-6">
+            <div class="md:col-span-1">
+              <span class="font-heading text-4xl font-semibold text-ochre/30">{step.n}</span>
+            </div>
+            <div class="md:col-span-5">
+              <h2 class="font-heading text-xl md:text-2xl font-semibold text-soil mb-4">{step.title}</h2>
+              <p class="text-stone leading-relaxed text-sm">{step.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div class="mt-16 text-center reveal">
+        <a href="/products/" class="btn-primary">See the products →</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

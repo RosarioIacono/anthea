@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Products"
+  description="Biology-enhanced seedlings from Anthea — tomatoes, cucurbits, and herbs tailored for open field, greenhouse, agrivoltaics, and vertical farms."
+>
+  <section class="page-hero">
+    <div class="section-wrap max-w-3xl">
+      <span class="inline-block font-heading text-xs uppercase tracking-widest text-ochre mb-4">Products</span>
+      <h1 class="font-heading text-4xl md:text-6xl font-semibold text-linen leading-tight">
+        Biology-enhanced seedlings
+      </h1>
+      <p class="text-linen/70 text-lg mt-6 max-w-xl">
+        High uniformity. Microbial support. Conditioned for your target system.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28 bg-linen">
+    <div class="section-wrap">
+
+      <!-- What every seedling includes -->
+      <div class="reveal mb-16">
+        <h2 class="font-heading text-2xl font-semibold text-soil mb-6">Every Anthea seedling includes</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          {[
+            ['High uniformity', 'Consistent sizing and developmental stage for predictable scheduling.'],
+            ['Biological enhancement', 'Mycorrhizal and microbial inoculation at the seedling stage.'],
+            ['Environmental conditioning', 'Early-life conditions tuned to your target farming system.'],
+          ].map(([title, body]) => (
+            <div class="card">
+              <h3 class="font-heading font-semibold text-soil text-sm mb-2">{title}</h3>
+              <p class="text-stone text-xs leading-relaxed">{body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Product lines -->
+      <div class="space-y-12">
+        {[
+          {
+            title: 'Tomato Seedlings',
+            scientific: 'Solanum lycopersicum & S. pimpinellifolium',
+            systems: ['Open field', 'Greenhouse', 'Vertical farms'],
+            detail: 'Varieties selected for flavour, resilience, and productivity. Our breeding work integrates transcriptomic and morphological data from AMF inoculation trials. Wild accessions (S. pimpinellifolium) are included in our open-source germplasm collection.',
+          },
+          {
+            title: 'Cucurbit Seedlings',
+            scientific: 'Cucurbitaceae',
+            systems: ['Greenhouse', 'Tunnel', 'Open field'],
+            detail: 'Cucumbers, courgettes, and related crops. Emphasis on strong early growth and stress tolerance. Suitable for farms working across tunnel, greenhouse, and open field systems.',
+          },
+          {
+            title: 'Herb Seedlings',
+            scientific: 'Mixed genera',
+            systems: ['Vertical farms', 'CEA', 'Home-growing'],
+            detail: 'Culinary herbs adapted to professional and home-growing contexts. Compact growth architecture with strong aroma. Options specifically developed for vertical farming and retail-oriented production.',
+          },
+        ].map((product, i) => (
+          <div class={`reveal ${i > 0 ? 'reveal-delay-1' : ''} grid md:grid-cols-5 gap-8 items-start py-10 border-t border-stone/10`}>
+            <div class="md:col-span-2">
+              <!-- Photo placeholder — replace with real seedling photography -->
+              <div class="bg-linen_dark rounded-sm h-52 flex items-center justify-center">
+                <span class="text-stone/40 font-heading text-xs">Seedling photo</span>
+              </div>
+            </div>
+            <div class="md:col-span-3">
+              <span class="font-mono text-xs text-stone/60 italic">{product.scientific}</span>
+              <h2 class="font-heading text-2xl font-semibold text-soil mt-2 mb-4">{product.title}</h2>
+              <p class="text-stone text-sm leading-relaxed mb-6">{product.detail}</p>
+              <div class="flex flex-wrap gap-2">
+                {product.systems.map(s => <span class="tag">{s}</span>)}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Farming systems -->
+      <div class="mt-20 reveal">
+        <div class="bg-bark text-linen rounded-sm p-8 md:p-12">
+          <h2 class="font-heading text-2xl font-semibold text-linen mb-4">Tailored to your system</h2>
+          <p class="text-linen/70 text-sm leading-relaxed mb-8 max-w-2xl">
+            When you work with Anthea, seedlings are conditioned with your target
+            environment in mind. We are developing pilot collaborations and trial schemes.
+          </p>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {['Open field', 'Greenhouse / tunnels', 'Agrivoltaics', 'Vertical farms'].map(sys => (
+              <div class="border border-white/20 rounded-sm p-4 text-center">
+                <p class="font-heading text-linen text-sm">{sys}</p>
+              </div>
+            ))}
+          </div>
+          <a href="/contact/" class="btn-primary">Start a trial</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</BaseLayout>

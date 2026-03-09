@@ -1,0 +1,56 @@
+---
+// src/layouts/BlogPostLayout.astro
+//
+// Wraps individual blog posts. Gets frontmatter data from the .md file
+// and renders it above the post content via <slot />.
+// The `prose-anthea` class applies our custom typography theme
+// defined in tailwind.config.mjs.
+
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  pubDate: Date;
+  author?: string;
+  tags?: string[];
+}
+
+const { title, description, pubDate, author = 'Anthea', tags = [] } = Astro.props;
+
+const formattedDate = pubDate.toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-hero">
+    <div class="section-wrap max-w-prose mx-auto">
+      <div class="flex flex-wrap gap-2 mb-6">
+        {tags.map(tag => <span class="tag">{tag}</span>)}
+      </div>
+      <h1 class="text-3xl md:text-5xl font-heading font-semibold text-linen leading-tight mb-6">
+        {title}
+      </h1>
+      <p class="text-stone text-sm font-heading">
+        {formattedDate} · {author}
+      </p>
+    </div>
+  </div>
+
+  <div class="section-wrap max-w-prose mx-auto py-16 md:py-24">
+    <!-- 
+      prose-anthea applies the typography config from tailwind.config.mjs.
+      This styles all the markdown content: headings, paragraphs, lists,
+      blockquotes, code blocks — all with Anthea's warm palette.
+    -->
+    <article class="prose prose-anthea prose-lg max-w-none">
+      <slot />
+    </article>
+
+    <div class="divider"></div>
+    <a href="/posts/" class="btn-outline">← Back to Blog</a>
+  </div>
+</BaseLayout>

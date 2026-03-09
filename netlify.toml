@@ -1,0 +1,16 @@
+# netlify.toml
+# Astro static output works with Netlify out of the box.
+# No special build adapter needed for a fully static site.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redirect all 404s to a custom page (create src/pages/404.astro if wanted)
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
+
+[build.environment]
+  NODE_VERSION = "20"

@@ -1,0 +1,340 @@
+---
+// src/pages/index.astro
+//
+// The homepage is the most important page — it should do the storytelling.
+// Structure: Hero → Partners → Problem → Solution → Products → Open Seeds →
+//            What you gain → Final CTA → Blog preview
+//
+// Each major section uses the reveal class for scroll-in animation.
+// The IntersectionObserver in BaseLayout.astro handles the triggering.
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Home"
+  description="Open-source seedling biotechnology for resilient European agriculture. Biology-enhanced seedlings validated in real systems."
+>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    HERO
+    Full-viewport opening. Dark bark background lets the logo
+    and headline breathe. The facility image sits below the fold
+    as a visual anchor to the scroll journey.
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="bg-bark text-linen min-h-[90vh] flex flex-col justify-center relative overflow-hidden">
+
+    <!-- Subtle organic texture overlay — replace with a real photo of seedlings
+         by setting background-image on this div once you have photography. -->
+    <div class="absolute inset-0 opacity-5"
+         style="background-image: radial-gradient(circle at 20% 80%, #C4893A 0%, transparent 50%), radial-gradient(circle at 80% 20%, #6B7A52 0%, transparent 50%);">
+    </div>
+
+    <div class="section-wrap relative z-10 py-24 md:py-32">
+      <div class="max-w-3xl">
+
+        <span class="tag mb-6 inline-block">Halle (Saale) · Germany</span>
+
+        <h1 class="font-heading font-semibold text-4xl md:text-6xl lg:text-7xl
+                   leading-tight text-linen mb-6">
+          Open-Source Seedling Biotechnology<br />
+          <em class="not-italic text-ochre">for Resilient Agriculture</em>
+        </h1>
+
+        <p class="text-linen/70 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 font-body">
+          High-uniformity, biology-enhanced seedlings grown with vertical-farming precision
+          and validated in a regenerative orchard.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="/products/" class="btn-primary">Discover our seedlings</a>
+          <a href="/contact/" class="btn-outline border-linen/40 text-linen hover:bg-linen hover:text-soil">
+            Start a trial
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-linen/40">
+      <span class="font-heading text-xs tracking-widest uppercase">Scroll</span>
+      <div class="w-px h-12 bg-gradient-to-b from-linen/40 to-transparent animate-pulse"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    PARTNER LOGOS
+    Replace src attributes with actual partner logos once you have them.
+    IPK, EIT Food, Hochschule Anhalt, Potager Farm, etc.
+    Keep this section REAL — broken logos hurt credibility.
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="bg-linen_dark py-12 border-y border-stone/10">
+    <div class="section-wrap">
+      <p class="font-heading text-xs uppercase tracking-widest text-stone text-center mb-8">
+        Supported by
+      </p>
+      <!-- 
+        IMPORTANT: Replace these placeholders with real logos.
+        Ideal size: SVG or PNG at ~140px wide, grayscale or single-color.
+        Suggested partners: IPK Gatersleben, EIT Food, Hochschule Anhalt,
+        Weinberg Campus, Potager Farm, Sky High project.
+      -->
+      <div class="flex flex-wrap items-center justify-center gap-10 md:gap-16 opacity-50">
+        <div class="font-heading text-sm text-stone font-medium">IPK Leibniz-Institut</div>
+        <div class="font-heading text-sm text-stone font-medium">EIT Food</div>
+        <div class="font-heading text-sm text-stone font-medium">Hochschule Anhalt</div>
+        <div class="font-heading text-sm text-stone font-medium">Weinberg Campus</div>
+        <div class="font-heading text-sm text-stone font-medium">Potager Farm</div>
+      </div>
+      <p class="text-center text-xs text-stone/60 font-heading mt-6">
+        <!-- Remove this note once logos are added -->
+        ↑ Replace text with partner logos in /public/images/partners/
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    THE PROBLEM
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="py-20 md:py-32 bg-linen">
+    <div class="section-wrap">
+      <div class="max-w-3xl reveal">
+        <span class="tag mb-4 inline-block">The Problem</span>
+        <h2 class="font-heading text-3xl md:text-5xl font-semibold text-soil mb-8">
+          Modern agriculture faces a seedling crisis
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-12">
+        {[
+          {
+            icon: '🌡',
+            title: 'Climate volatility',
+            body: 'Increasing extremes narrow the window for successful establishment and amplify production risk at every scale.',
+            delay: 'reveal-delay-1',
+          },
+          {
+            icon: '🔒',
+            title: 'Closing seed systems',
+            body: 'Restrictive licenses and patents are consolidating genetic control in fewer hands, reducing farmer autonomy and biodiversity.',
+            delay: 'reveal-delay-2',
+          },
+          {
+            icon: '🌱',
+            title: 'Unprepared seedlings',
+            body: 'Most seedlings enter the field without microbial support or conditioning, limiting establishment vigour and long-term resilience.',
+            delay: 'reveal-delay-3',
+          },
+        ].map(item => (
+          <div class={`card reveal ${item.delay}`}>
+            <div class="text-3xl mb-4">{item.icon}</div>
+            <h3 class="font-heading font-semibold text-soil text-lg mb-3">{item.title}</h3>
+            <p class="text-stone text-sm leading-relaxed">{item.body}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-8 reveal">
+        <a href="/problem/" class="text-ochre font-heading text-sm font-medium hover:text-ochre_dark transition-colors">
+          Read the full problem statement →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    OUR SOLUTION
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="py-20 md:py-32 bg-bark text-linen">
+    <div class="section-wrap">
+      <div class="max-w-3xl reveal">
+        <span class="inline-block font-heading text-xs uppercase tracking-widest text-ochre mb-4">
+          Our Solution
+        </span>
+        <h2 class="font-heading text-3xl md:text-5xl font-semibold text-linen mb-8">
+          Biology, precision, and validation — combined
+        </h2>
+        <p class="text-linen/70 text-lg leading-relaxed">
+          Anthea combines controlled environments, beneficial biology, and real-world
+          field validation to produce seedlings that perform well beyond the nursery.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-16">
+        {[
+          {
+            n: '01',
+            title: 'Vertical nursery',
+            body: 'Precision conditioning of early growth — light spectra, VPD, irrigation — applied consistently at scale.',
+            delay: 'reveal-delay-1',
+          },
+          {
+            n: '02',
+            title: 'Biology enhancement',
+            body: 'Arbuscular mycorrhizal fungi and plant growth-promoting microbes inoculated at the seedling stage.',
+            delay: 'reveal-delay-2',
+          },
+          {
+            n: '03',
+            title: 'Field validation',
+            body: 'A regenerative orchard as living laboratory — where performance data meets real soil complexity.',
+            delay: 'reveal-delay-3',
+          },
+        ].map(step => (
+          <div class={`reveal ${step.delay}`}>
+            <div class="font-heading text-4xl font-semibold text-ochre/30 mb-4">{step.n}</div>
+            <h3 class="font-heading font-semibold text-linen text-xl mb-3">{step.title}</h3>
+            <p class="text-linen/60 text-sm leading-relaxed">{step.body}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-12 reveal">
+        <a href="/solution/" class="text-ochre font-heading text-sm font-medium hover:text-ochre_dark transition-colors">
+          See the full approach →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    PRODUCTS
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="py-20 md:py-32 bg-linen">
+    <div class="section-wrap">
+      <div class="reveal">
+        <span class="tag mb-4 inline-block">What we offer</span>
+        <h2 class="font-heading text-3xl md:text-5xl font-semibold text-soil mb-4">
+          Biology-enhanced seedlings
+        </h2>
+        <p class="text-stone text-lg max-w-2xl mb-12">
+          Tailored for open field, greenhouse, agrivoltaics, and vertical farms.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        {[
+          {
+            title: 'Tomato seedlings',
+            body: 'Varieties selected for flavour, resilience, and productivity. Suitable for open field, greenhouses, and vertical farms.',
+            tag: 'Solanum lycopersicum',
+            delay: 'reveal-delay-1',
+          },
+          {
+            title: 'Cucurbit seedlings',
+            body: 'Cucumbers, courgettes, and related crops. Strong early growth and stress tolerance across tunnel and greenhouse systems.',
+            tag: 'Cucurbitaceae',
+            delay: 'reveal-delay-2',
+          },
+          {
+            title: 'Herb seedlings',
+            body: 'Culinary herbs adapted to professional and home-growing contexts. Compact growth, strong aroma, options for vertical systems.',
+            tag: 'Mixed genera',
+            delay: 'reveal-delay-3',
+          },
+        ].map(product => (
+          <div class={`card border border-stone/10 reveal ${product.delay}`}>
+            <!-- Placeholder for product photography -->
+            <div class="bg-linen w-full h-40 rounded-sm mb-5 flex items-center justify-center">
+              <span class="text-stone/40 font-heading text-xs">Photo coming soon</span>
+            </div>
+            <span class="font-mono text-xs text-stone/60 italic">{product.tag}</span>
+            <h3 class="font-heading font-semibold text-soil text-lg mt-2 mb-3">{product.title}</h3>
+            <p class="text-stone text-sm leading-relaxed mb-4">{product.body}</p>
+            <a href="/products/" class="text-ochre font-heading text-sm font-medium hover:text-ochre_dark transition-colors">
+              View details →
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    OPEN-SOURCE SEEDS
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="py-20 md:py-32 bg-sage/10 border-y border-sage/20">
+    <div class="section-wrap">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="reveal">
+          <span class="tag mb-4 inline-block">Open-source genetics</span>
+          <h2 class="font-heading text-3xl md:text-4xl font-semibold text-soil mb-6">
+            Seeds as commons, not commodities
+          </h2>
+          <p class="text-stone text-lg leading-relaxed mb-6">
+            Anthea releases varieties under open-source seed licences so genetics
+            remain usable, improvable, and shareable — forever. No lock-in.
+            Transparent improvement paths. Farmers as co-breeders.
+          </p>
+          <a href="/open-source-seeds/" class="btn-primary">Learn how it works</a>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <!-- Replace with a real image of seeds / germplasm when available -->
+          <div class="bg-linen_dark rounded-sm h-64 flex items-center justify-center">
+            <span class="text-stone/40 font-heading text-xs">Germplasm image</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    BENEFITS
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="py-20 md:py-28 bg-linen">
+    <div class="section-wrap text-center">
+      <div class="reveal">
+        <h2 class="font-heading text-3xl md:text-4xl font-semibold text-soil mb-16">
+          What you gain
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        {[
+          {
+            title: 'Uniformity',
+            body: 'More predictable planning, scheduling, and production cycles. Consistency you can build a business on.',
+            delay: 'reveal-delay-1',
+          },
+          {
+            title: 'Early vigour',
+            body: 'Faster establishment and improved resilience after transplant, supported by a ready-made microbial network.',
+            delay: 'reveal-delay-2',
+          },
+          {
+            title: 'Freedom',
+            body: 'Open genetics with no lock-in. Transparent improvement paths and the right to adapt varieties to your conditions.',
+            delay: 'reveal-delay-3',
+          },
+        ].map(item => (
+          <div class={`reveal ${item.delay}`}>
+            <h3 class="font-heading font-semibold text-ochre text-xl mb-3">{item.title}</h3>
+            <p class="text-stone text-sm leading-relaxed max-w-xs mx-auto">{item.body}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+    FINAL CTA
+    This should be the last conversion opportunity before the footer.
+    Keep it focused — one action only.
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="py-20 md:py-28 bg-ochre text-linen">
+    <div class="section-wrap text-center reveal">
+      <h2 class="font-heading text-3xl md:text-5xl font-semibold text-linen mb-6">
+        Start a trial with Anthea
+      </h2>
+      <p class="text-linen/80 text-lg mb-10 max-w-xl mx-auto">
+        Are you a farm, greenhouse, agrivoltaic project, or vertical farm?
+        Let's test biology-enhanced seedlings in your system.
+      </p>
+      <a href="/contact/" class="inline-block bg-linen text-ochre font-heading font-semibold
+                                  px-8 py-4 rounded-sm text-sm tracking-wide
+                                  hover:bg-linen_dark transition-colors duration-200">
+        Get in touch
+      </a>
+    </div>
+  </section>
+
+</BaseLayout>

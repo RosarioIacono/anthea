@@ -1,0 +1,142 @@
+---
+// src/pages/about.astro
+// 
+// This replaces the Hugo placeholder. Your credentials are genuinely strong —
+// the EIT Food Fellowship, Nature Comms paper, IPK affiliation.
+// A founder page with real content builds trust with partners and funders.
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About"
+  description="Anthea is founded by Dr. Rosario Iacono, a plant biologist specialising in mycorrhizal networks and controlled-environment agriculture."
+>
+  <!-- Hero -->
+  <section class="page-hero">
+    <div class="section-wrap max-w-3xl">
+      <span class="inline-block font-heading text-xs uppercase tracking-widest text-ochre mb-4">About</span>
+      <h1 class="font-heading text-4xl md:text-6xl font-semibold text-linen leading-tight">
+        Science-driven,<br />open by design
+      </h1>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="py-20 md:py-28 bg-linen">
+    <div class="section-wrap">
+      <div class="grid md:grid-cols-2 gap-16 items-start">
+        <div class="reveal">
+          <h2 class="font-heading text-2xl md:text-3xl font-semibold text-soil mb-6">
+            What Anthea is
+          </h2>
+          <div class="prose prose-anthea max-w-none text-stone">
+            <p>
+              Anthea is an open-source horticultural biotechnology initiative focused
+              on creating the next generation of high-uniformity, biology-enhanced
+              seedlings for European agriculture.
+            </p>
+            <p>
+              We stand at the intersection of vertical farming, plant physiology,
+              microbiology, and agroecology — growers and researchers, open-source
+              advocates, deeply rooted in both data and soil.
+            </p>
+            <p>
+              Our mission is to make advanced plant material transparent, shareable,
+              and adaptable. Seeds and genetics as commons, not commodities.
+            </p>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <h2 class="font-heading text-2xl md:text-3xl font-semibold text-soil mb-6">
+            What we believe
+          </h2>
+          <ul class="space-y-4">
+            {[
+              'Farmers should be co-breeders, not just customers.',
+              'Open genetics preserve agrobiodiversity and reduce systemic fragility.',
+              'The seedling stage is where biology, environment, and genetics first meet — and where the most leverage exists.',
+              'Science should be practiced in the field, not only in the lab.',
+            ].map(belief => (
+              <li class="flex items-start gap-3 text-stone text-sm leading-relaxed">
+                <span class="text-ochre mt-1 text-xs">◆</span>
+                {belief}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founder -->
+  <section class="py-20 md:py-28 bg-linen_dark">
+    <div class="section-wrap">
+      <div class="reveal mb-12">
+        <span class="tag mb-4 inline-block">Founder</span>
+        <h2 class="font-heading text-2xl md:text-3xl font-semibold text-soil">
+          Dr. Rosario Iacono
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-12 items-start">
+        <div class="md:col-span-2 reveal">
+          <div class="prose prose-anthea max-w-none">
+            <p>
+              Rosario is a plant biologist and agrifood entrepreneur specialising
+              in mycorrhizal networks, soil fungal ecology, and controlled-environment
+              agriculture. He holds a PhD from Aberystwyth University on Miscanthus
+              genetic diversity and conducted postdoctoral research at the Helmholtz
+              Centre on soil fungal community networks across 330 European sites.
+            </p>
+            <p>
+              He is currently Scientific Coordinator at IPK Leibniz-Institut in
+              Gatersleben, where he co-coordinates the Neuland project — a
+              collaboration between IPK and Kunsthochschule Halle at the intersection
+              of plant science and design.
+            </p>
+            <p>
+              Rosario won the EIT Food Innovator Fellowship final pitch with Anthea,
+              and has previously accelerated the company through the Weinberg Campus
+              programme in Halle.
+            </p>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-2 space-y-4">
+          <div class="card">
+            <h3 class="font-heading text-xs uppercase tracking-widest text-stone mb-3">
+              Selected publications
+            </h3>
+            <ul class="space-y-2 text-xs text-stone leading-relaxed">
+              <li>Nature Communications · first author</li>
+              <li>Environmental Microbiology · first author</li>
+              <li>Two further peer-reviewed papers</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="font-heading text-xs uppercase tracking-widest text-stone mb-3">
+              Credentials
+            </h3>
+            <ul class="space-y-2 text-xs text-stone">
+              <li>EIT Food Innovator Fellow</li>
+              <li>AFHEA</li>
+              <li>Managing Editor, Int. Mycorrhiza Society Newsletter</li>
+              <li>IPK Leibniz-Institut, Scientific Coordinator</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-linen border-t border-stone/10">
+    <div class="section-wrap text-center reveal">
+      <p class="text-stone mb-6 font-body text-lg">
+        Interested in working with Anthea?
+      </p>
+      <a href="/contact/" class="btn-primary">Get in touch</a>
+    </div>
+  </section>
+</BaseLayout>

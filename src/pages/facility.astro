@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Facility" description="Anthea's controlled-environment nursery and regenerative orchard in Halle (Saale), Germany.">
+  <section class="page-hero">
+    <div class="section-wrap max-w-3xl">
+      <span class="inline-block font-heading text-xs uppercase tracking-widest text-ochre mb-4">Facility</span>
+      <h1 class="font-heading text-4xl md:text-6xl font-semibold text-linen leading-tight">
+        Where the science lives
+      </h1>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28 bg-linen">
+    <div class="section-wrap">
+      <div class="grid md:grid-cols-2 gap-16">
+        <div class="reveal prose prose-anthea max-w-none">
+          <h2>Controlled-environment nursery</h2>
+          <p>
+            Our nursery operates as a precision platform for seedling development.
+            Purpose-built grow racks with programmable LED spectra, VPD control,
+            automated irrigation, and environmental monitoring via Raspberry Pi /
+            Mycodo-based systems give us repeatable, data-rich conditions at every
+            production run.
+          </p>
+          <p>
+            Capacity is designed around approximately 1 million seedlings per year
+            at full operation, with 28–30 day production cycles. Location: Halle (Saale),
+            Germany.
+          </p>
+
+          <h2>Regenerative orchard</h2>
+          <p>
+            The orchard serves as our long-term field validation site — a complex
+            living ecosystem where seedlings produced under controlled conditions
+            prove themselves against real soil biology and climate variability.
+          </p>
+          <p>
+            It is simultaneously a research site, a production space, and a demonstration
+            ground for the Anthea approach.
+          </p>
+        </div>
+        <div class="reveal reveal-delay-2 space-y-6">
+          <!-- Replace with real facility photos when available -->
+          <div class="bg-linen_dark rounded-sm h-52 flex items-center justify-center">
+            <span class="text-stone/40 font-heading text-xs">Nursery interior photo</span>
+          </div>
+          <div class="bg-linen_dark rounded-sm h-52 flex items-center justify-center">
+            <span class="text-stone/40 font-heading text-xs">Orchard photo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

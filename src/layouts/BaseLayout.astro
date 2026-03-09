@@ -1,0 +1,84 @@
+---
+// src/layouts/BaseLayout.astro
+// 
+// This is the shell that wraps EVERY page on the site.
+// It handles: <head> meta tags, font loading, Nav, Footer,
+// and the scroll-reveal Intersection Observer script.
+//
+// Usage in any page:
+//   import BaseLayout from '../layouts/BaseLayout.astro';
+//   <BaseLayout title="Page Title" description="...">
+//     ... page content ...
+//   </BaseLayout>
+
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title,
+  description = 'Open-source seedling biotechnology for resilient European agriculture.',
+  ogImage = '/images/og-default.png',
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+
+    <!-- Open Graph — for sharing on LinkedIn, WhatsApp, etc. -->
+    <meta property="og:title" content={`${title} | Anthea`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:type" content="website" />
+
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+
+    <title>{title} | Anthea</title>
+  </head>
+  <body>
+    <Nav />
+
+    <main>
+      <slot />
+      <!-- <slot /> is how Astro injects the child page's content here -->
+    </main>
+
+    <Footer />
+
+    <!-- 
+      Scroll-reveal observer.
+      Any element with class="reveal" will fade up when it enters the viewport.
+      Add reveal-delay-1 through -4 to stagger siblings.
+    -->
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              // Unobserve after first reveal so it doesn't re-trigger
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+      );
+
+      document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>

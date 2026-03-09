@@ -1,0 +1,110 @@
+/* src/styles/global.css */
+/* 
+  We import Google Fonts here. Sora is your brand font.
+  Lora adds warmth to body text — it's the right serif for 
+  scientific-but-human content like Anthea produces.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── BASE RESETS ──────────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+
+  body {
+    @apply bg-linen text-soil font-body antialiased;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold leading-tight text-soil;
+  }
+
+  /* Smooth focus rings using ochre */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ochre;
+  }
+
+  /* Selection uses linen_dark + ochre for brand consistency */
+  ::selection {
+    background-color: #C4893A33; /* ochre at 20% opacity */
+    color: #2C1A0E;
+  }
+}
+
+/* ─── COMPONENT UTILITIES ──────────────────────────────────────── */
+@layer components {
+
+  /* The main CTA button style */
+  .btn-primary {
+    @apply inline-block bg-ochre text-linen font-heading font-semibold 
+           px-6 py-3 rounded-sm text-sm tracking-wide
+           hover:bg-ochre_dark transition-colors duration-200
+           focus-visible:ring-2 ring-ochre ring-offset-2;
+  }
+
+  /* A softer secondary button — outlined */
+  .btn-outline {
+    @apply inline-block border border-soil text-soil font-heading font-semibold
+           px-6 py-3 rounded-sm text-sm tracking-wide
+           hover:bg-soil hover:text-linen transition-colors duration-200;
+  }
+
+  /* Section wrapper — consistent horizontal padding */
+  .section-wrap {
+    @apply w-full max-w-content mx-auto px-6 md:px-12;
+  }
+
+  /* A subtle earthy divider */
+  .divider {
+    @apply border-t border-linen_dark my-16;
+  }
+
+  /* Card with warm linen background */
+  .card {
+    @apply bg-linen_dark rounded-sm p-6 md:p-8;
+  }
+
+  /* Page hero — reused across inner pages */
+  .page-hero {
+    @apply bg-bark text-linen py-20 md:py-28;
+  }
+
+  /* Tag / badge for categories */
+  .tag {
+    @apply inline-block text-xs font-heading font-medium tracking-widest uppercase
+           text-sage bg-sage/10 px-3 py-1 rounded-full;
+  }
+}
+
+/* ─── SCROLL REVEAL ANIMATION ──────────────────────────────────── */
+/* 
+  Simple CSS-only fade-up animation for section entries.
+  We use the Intersection Observer API in a small inline script
+  to add the .visible class when elements scroll into view.
+  This keeps things dependency-free (no GSAP, no Framer Motion needed).
+*/
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-delay-1 { transition-delay: 0.1s; }
+  .reveal-delay-2 { transition-delay: 0.2s; }
+  .reveal-delay-3 { transition-delay: 0.3s; }
+  .reveal-delay-4 { transition-delay: 0.4s; }
+}

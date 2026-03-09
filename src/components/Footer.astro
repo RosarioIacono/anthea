@@ -1,0 +1,70 @@
+---
+// src/components/Footer.astro
+// 
+// A clean footer with Anthea's tagline, navigation columns, and legal.
+// Replace placeholder partner logos with actual partner images in /public/images/partners/.
+---
+
+<footer class="bg-bark text-linen/70 pt-16 pb-8">
+  <div class="section-wrap">
+
+    <!-- Top section: brand + nav columns -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+
+      <!-- Brand column -->
+      <div class="md:col-span-1">
+        <a href="/" class="flex items-center gap-2 mb-4">
+          <img src="/images/logo.png" alt="" class="h-6 w-auto" />
+          <span class="font-heading font-semibold text-linen text-base">Anthea</span>
+        </a>
+        <p class="text-sm leading-relaxed">
+          Open-source seedling biotechnology for resilient European agriculture.
+        </p>
+        <p class="text-xs text-stone mt-4 font-heading tracking-wide uppercase">
+          Halle (Saale), Germany
+        </p>
+      </div>
+
+      <!-- Navigation columns -->
+      <div>
+        <h3 class="font-heading text-xs uppercase tracking-widest text-stone mb-4">Company</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/about/" class="hover:text-ochre transition-colors">About</a></li>
+          <li><a href="/facility/" class="hover:text-ochre transition-colors">Facility</a></li>
+          <li><a href="/press/" class="hover:text-ochre transition-colors">Press</a></li>
+          <li><a href="/contact/" class="hover:text-ochre transition-colors">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-heading text-xs uppercase tracking-widest text-stone mb-4">Science</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/problem/" class="hover:text-ochre transition-colors">The Problem</a></li>
+          <li><a href="/solution/" class="hover:text-ochre transition-colors">Our Solution</a></li>
+          <li><a href="/science/" class="hover:text-ochre transition-colors">Research</a></li>
+          <li><a href="/open-source-seeds/" class="hover:text-ochre transition-colors">Open Seeds</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-heading text-xs uppercase tracking-widest text-stone mb-4">Products</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/products/" class="hover:text-ochre transition-colors">Seedlings</a></li>
+          <li><a href="/posts/" class="hover:text-ochre transition-colors">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <p class="text-xs font-heading">
+        © {new Date().getFullYear()} Anthea · Halle (Saale), Germany
+      </p>
+      <p class="text-xs text-stone">
+        Built with <a href="https://astro.build" class="hover:text-ochre transition-colors">Astro</a>
+        · Open-source at heart
+      </p>
+    </div>
+
+  </div>
+</footer>
